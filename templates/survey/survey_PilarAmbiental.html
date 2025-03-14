@@ -1,0 +1,994 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://www.sugarcane.org/wp-content/uploads/2020/12/icones_environmental_protection.png">
+    <title>ESG</title>
+    <!-- CSS FILES START -->
+    <link href="/static/css/custom.css" rel="stylesheet">
+    <link href="/static/css/color.css" rel="stylesheet">
+    <link href="/static/css/responsive.css" rel="stylesheet">
+    <link href="/static/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/prettyPhoto.css" rel="stylesheet">
+    <link href="/static/css/all.min.css" rel="stylesheet">
+    <!-- CSS FILES End -->
+    <script src="/static/js/cookie_config.js"></script>
+</head>
+
+<body>
+    <div class="wrapper home1">
+        <!--Header Start-->
+        <header class="header-style-1">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="../home.html"><img
+                        src="https://i.postimg.cc/8c8BSPtz/Sem-t-tulo-removebg-preview.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation"> <i class="fas fa-bars"></i> </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                </div>
+            </nav>
+        </header>
+        <!--Header End-->
+        <div id="search">
+            <button type="button" class="close">×</button>
+            <form class="search-overlay-form">
+                <input type="search" value="" placeholder="type keyword(s) here" />
+                <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <!--Slider Start-->
+        <!--Sobre o início da seção-->
+        <section class="home-about wf100 p80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-40">
+                        <div class="about-txt">
+                            <form id="surveyAmbientalForm" action="/survey/survey_PilarAmbiental.html" method="post">
+                                <h2><span>Catalisador ESG</span></h2>
+                                <br><br><h2>Pilar Ambiental</h2>
+
+                                <br><br><p>Mitigação de emissões de gases de efeito estufa (GEE)</p>
+                                <p>1. Na empresa foi implementado sistema para medir e reportar os níveis de emissões de GEE?</p>
+                                <label for="ambiental_emissoesGEE_sim">Sim</label>
+                                <input type="radio" id="ambiental_emissoesGEE_sim" name="ambiental_emissoesGEE" value="0">
+                                <label for="ambiental_emissoesGEE_nao">Não</label>
+                                <input type="radio" id="ambiental_emissoesGEE_nao" name="ambiental_emissoesGEE" value="1">
+                                <label for="ambiental_emissoesGEE_np">Não Aplicado</label>
+                                <input type="radio" id="ambiental_emissoesGEE_np" name="ambiental_emissoesGEE" value="2">
+
+                                <p>2. Na empresa foi elaborado inventário de emissões de gases de efeito estufa (GEE)?</p>
+                                <label for="ambiental_inventarioGEE_sim">Sim</label>
+                                <input type="radio" id="ambiental_inventarioGEE_sim" name="ambiental_inventarioGEE" value="0">
+                                <label for="ambiental_inventarioGEE_nao">Não</label>
+                                <input type="radio" id="ambiental_inventarioGEE_nao" name="ambiental_inventarioGEE" value="1">
+                                <label for="ambiental_inventarioGEE_np">Não Aplicado</label>
+                                <input type="radio" id="ambiental_inventarioGEE_np" name="ambiental_inventarioGEE" value="2">
+
+                                <p>3. Na empresa foi desenvolvido plano de mitigação das emissões com metas de redução, remoção ou compensação?</p>
+                                <label for="ambiental_planoMitigacao_sim">Sim</label>
+                                <input type="radio" id="ambiental_planoMitigacao_sim" name="ambiental_planoMitigacao" value="0">
+                                <label for="ambiental_planoMitigacao_nao">Não</label>
+                                <input type="radio" id="ambiental_planoMitigacao_nao" name="ambiental_planoMitigacao" value="1">
+                                <label for="ambiental_planoMitigacao_np">Não Aplicado</label>
+                                <input type="radio" id="ambiental_planoMitigacao_np" name="ambiental_planoMitigacao" value="2">
+
+                                <p>4. A empresa participa em plataformas, campanhas e iniciativas para garantir padrões e transparência no compromisso climático?</p>
+                                <label for="ambiental_participacaoPlataformas_sim">Sim</label>
+                                <input type="radio" id="ambiental_participacaoPlataformas_sim" name="ambiental_participacaoPlataformas" value="0">
+                                <label for="ambiental_participacaoPlataformas_nao">Não</label>
+                                <input type="radio" id="ambiental_participacaoPlataformas_nao" name="ambiental_participacaoPlataformas" value="1">
+                                <label for="ambiental_participacaoPlataformas_np">Não Aplicado</label>
+                                <input type="radio" id="ambiental_participacaoPlataformas_np" name="ambiental_participacaoPlataformas" value="2">
+
+                                <p>5. A empresa divulga o inventário de emissões de GEE, o plano de mitigação e os resultados alcançados?</p>
+                                <label for="ambiental_divulgarInventario_sim">Sim</label>
+                                <input type="radio" id="ambiental_divulgarInventario_sim" name="ambiental_divulgarInventario" value="0">
+                                <label for="ambiental_divulgarInventario_nao">Não</label>
+                                <input type="radio" id="ambiental_divulgarInventario_nao" name="ambiental_divulgarInventario" value="1">
+                                <label for="ambiental_divulgarInventario_np">Não Aplicado</label>
+                                <input type="radio" id="ambiental_divulgarInventario_np" name="ambiental_divulgarInventario" value="2">
+
+                                <br><br><p>Adaptação às mudanças climáticas</p>
+                                <p>6. Na empresa foi formado um grupo de trabalho multidisciplinar para o plano de adaptação às mudanças climáticas?</p>
+                                <label for="ambiental_grupoTrabalho_sim">Sim</label>
+                                <input type="radio" id="ambiental_grupoTrabalho_sim" name="ambiental_grupoTrabalho" value="0">
+                                <label for="ambiental_grupoTrabalho_nao">Não</label>
+                                <input type="radio" id="ambiental_grupoTrabalho_nao" name="ambiental_grupoTrabalho" value="1">
+                                <label for="ambiental_grupoTrabalho_np">Não Aplicado</label>
+                                <input type="radio" id="ambiental_grupoTrabalho_np" name="ambiental_grupoTrabalho" value="2">
+
+                                <p>7. Foi identificado cenários de ameaça das mudanças climáticas, riscos de impactos e oportunidades potenciais para a empresa?</p>
+                                <label for="ambiental_identificacaoCenarios_sim">Sim</label>
+                                <input type="radio" id="ambiental_identificacaoCenarios_sim" name="ambiental_identificacaoCenarios" value="0">
+                                <label for="ambiental_identificacaoCenarios_nao">Não</label>
+                                <input type="radio" id="ambiental_identificacaoCenarios_nao" name="ambiental_identificacaoCenarios" value="1">
+                                <label for="ambiental_identificacaoCenarios_np">Não Aplicado</label>
+                                <input type="radio" id="ambiental_identificacaoCenarios_np" name="ambiental_identificacaoCenarios" value="2">
+
+                                <p>8. Foi desenvolvido pela empresa plano de adaptação às mudanças climáticas com prioridade?</p>
+                                <label for="ambiental_planoAdaptacao_sim">Sim</label>
+                                <input type="radio" id="ambiental_planoAdaptacao_sim" name="ambiental_planoAdaptacao" value="0">
+                                <label for="ambiental_planoAdaptacao_nao">Não</label>
+                                <input type="radio" id="ambiental_planoAdaptacao_nao" name="ambiental_planoAdaptacao" value="1">
+                                <label for="ambiental_planoAdaptacao_np">Não Aplicado</label>
+                                <input type="radio" id="ambiental_planoAdaptacao_np" name="ambiental_planoAdaptacao" value="2">
+                                
+                                <p>9. Foi implementado pela empresa ações de engajamento sobre as mudanças climáticas com stakeholders internos e externos?</p>
+                                <label for="ambiental_engajamentoStakeholders_sim">Sim</label>
+                                <input type="radio" id="ambiental_engajamentoStakeholders_sim" name="ambiental_engajamentoStakeholders" value="0">
+                                <label for="ambiental_engajamentoStakeholders_nao">Não</label>
+                                <input type="radio" id="ambiental_engajamentoStakeholders_nao" name="ambiental_engajamentoStakeholders" value="1">
+                                <label for="ambiental_engajamentoStakeholders_np">Não Aplicado</label>
+                                <input type="radio" id="ambiental_engajamentoStakeholders_np" name="ambiental_engajamentoStakeholders" value="2">
+                                
+                                <p>10. A empresa comunicou a elaboração do plano de adaptação às mudanças climáticas e de seus resultados para públicos internos e externos?</p>
+                                <label for="ambiental_comunicacaoPlano_sim">Sim</label>
+                                <input type="radio" id="ambiental_comunicacaoPlano_sim" name="ambiental_comunicacaoPlano" value="0">
+                                <label for="ambiental_comunicacaoPlano_nao">Não</label>
+                                <input type="radio" id="ambiental_comunicacaoPlano_nao" name="ambiental_comunicacaoPlano" value="1">
+                                <label for="ambiental_comunicacaoPlano_np">Não Aplicado</label>
+                                <input type="radio" id="ambiental_comunicacaoPlano_np" name="ambiental_comunicacaoPlano" value="2">
+
+                                <br><br><p>Eficiência energética</p>
+                                                                        <p>11. A empresa realizou diagnóstico e definição de metas de desempenho energético com revisões periódicas para avaliar o consumo de equipamentos e instalações?</p>
+                                                                        <label for="ambiental_diagnosticoMetas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_diagnosticoMetas_sim" name="ambiental_diagnosticoMetas" value="0">
+                                                                        <label for="ambiental_diagnosticoMetas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_diagnosticoMetas_nao" name="ambiental_diagnosticoMetas" value="1">
+                                                                        <label for="ambiental_diagnosticoMetas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_diagnosticoMetas_np" name="ambiental_diagnosticoMetas" value="2">
+                                                                        
+                                                                        <p>12. A empresa utiliza fontes de energia renovável (painéis solares, gestão distribuída, etc.)?</p>
+                                                                        <label for="ambiental_energiaRenovavel_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_energiaRenovavel_sim" name="ambiental_energiaRenovavel" value="0">
+                                                                        <label for="ambiental_energiaRenovavel_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_energiaRenovavel_nao" name="ambiental_energiaRenovavel" value="1">
+                                                                        <label for="ambiental_energiaRenovavel_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_energiaRenovavel_np" name="ambiental_energiaRenovavel" value="2">
+                                                                        
+                                                                        <p>13. A empresa prioriza aquisição de produtos com maior eficiência energética (Selo Procel, Selo Conpet, Categoria A do Programa Brasileiro de Etiquetagem)?</p>
+                                                                        <label for="ambiental_eficienciaEnergetica_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_eficienciaEnergetica_sim" name="ambiental_eficienciaEnergetica" value="0">
+                                                                        <label for="ambiental_eficienciaEnergetica_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_eficienciaEnergetica_nao" name="ambiental_eficienciaEnergetica" value="1">
+                                                                        <label for="ambiental_eficienciaEnergetica_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_eficienciaEnergetica_np" name="ambiental_eficienciaEnergetica" value="2">
+                                                                        
+                                                                        <p>14. A empresa trocou lâmpadas incandescentes ou fluorescentes por lâmpadas LED e utilização de sensores de presença?</p>
+                                                                        <label for="ambiental_trocaLampadas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_trocaLampadas_sim" name="ambiental_trocaLampadas" value="0">
+                                                                        <label for="ambiental_trocaLampadas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_trocaLampadas_nao" name="ambiental_trocaLampadas" value="1">
+                                                                        <label for="ambiental_trocaLampadas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_trocaLampadas_np" name="ambiental_trocaLampadas" value="2">
+                                                                        
+                                                                        <p>15. A empresa está em conformidade com as normas ISO 50001 (gestão de energia), incluindo a implementação de práticas recomendadas para melhorar a eficiência energética e reduzir o consumo de energia?</p>
+                                                                        <label for="ambiental_iso50001_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_iso50001_sim" name="ambiental_iso50001" value="0">
+                                                                        <label for="ambiental_iso50001_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_iso50001_nao" name="ambiental_iso50001" value="1">
+                                                                        <label for="ambiental_iso50001_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_iso50001_np" name="ambiental_iso50001" value="2">
+                                                                        
+                                                                        <br><br><p>Uso da água</p>
+                                                                        <p>16. A empresa adota requisitos de uso da água?</p>
+                                                                        <label for="ambiental_usoAguaSuperficial_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_usoAguaSuperficial_sim" name="ambiental_usoAguaSuperficial" value="0">
+                                                                        <label for="ambiental_usoAguaSuperficial_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_usoAguaSuperficial_nao" name="ambiental_usoAguaSuperficial" value="1">
+                                                                        <label for="ambiental_usoAguaSuperficial_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_usoAguaSuperficial_np" name="ambiental_usoAguaSuperficial" value="2">
+                                                                        
+                                                                        <p>17. A empresa monitora o consumo de água em suas atividades?</p>
+                                                                        <label for="ambiental_monitoraAgua_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_monitoraAgua_sim" name="ambiental_monitoraAgua" value="0">
+                                                                        <label for="ambiental_monitoraAgua_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_monitoraAgua_nao" name="ambiental_monitoraAgua" value="1">
+                                                                        <label for="ambiental_monitoraAgua_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_monitoraAgua_np" name="ambiental_monitoraAgua" value="2">
+                                                                        
+                                                                        <p>18. A empresa monitora o consumo de água em suas atividades, estabelecendo indicadores, metas e planos de ação para alcançar as metas de redução de consumo de água?</p>
+                                                                        <label for="ambiental_indicadoresMetas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_indicadoresMetas_sim" name="ambiental_indicadoresMetas" value="0">
+                                                                        <label for="ambiental_indicadoresMetas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_indicadoresMetas_nao" name="ambiental_indicadoresMetas" value="1">
+                                                                        <label for="ambiental_indicadoresMetas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_indicadoresMetas_np" name="ambiental_indicadoresMetas" value="2">
+                                                                        
+                                                                        <p>19. A empresa monitora o consumo de água em suas atividades, estabelecendo indicadores, metas e planos de ação para alcançar as metas de redução de consumo de água? Além disso, já implementou projetos de reutilização de água de reuso e aproveitamento de água da chuva. Os resultados desses projetos são divulgados publicamente, promovendo transparência e responsabilidade ambiental?</p>
+                                                                        <label for="ambiental_projetosReuso_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_projetosReuso_sim" name="ambiental_projetosReuso" value="0">
+                                                                        <label for="ambiental_projetosReuso_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_projetosReuso_nao" name="ambiental_projetosReuso" value="1">
+                                                                        <label for="ambiental_projetosReuso_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_projetosReuso_np" name="ambiental_projetosReuso" value="2">
+                                                                        
+                                                                        <p>20. A empresa monitora o consumo de água em suas atividades, estabelecendo indicadores, metas e planos de ação para alcançar as metas de redução de consumo de água? Além disso, já implementou projetos de reutilização de água de reuso e aproveitamento de água da chuva, cujos resultados são divulgados publicamente? A empresa também realiza ações voltadas para partes externas no contexto do uso da água, promovendo a conscientização e a colaboração para a gestão sustentável dos recursos hídricos?</p>
+                                                                        <label for="ambiental_acoesExternas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_acoesExternas_sim" name="ambiental_acoesExternas" value="0">
+                                                                        <label for="ambiental_acoesExternas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_acoesExternas_nao" name="ambiental_acoesExternas" value="1">
+                                                                        <label for="ambiental_acoesExternas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_acoesExternas_np" name="ambiental_acoesExternas" value="2">
+                                                                        
+                                                                        <br><br><p>Gestão de efuentes</p>
+                                                                        <p>21. A empresa realiza a gestão de efluentes conforme estabelecido pela legislação vigente? Além disso, adota práticas avançadas de tratamento e monitoramento para garantir a conformidade ambiental e minimizar o impacto sobre os recursos hídricos?</p>
+                                                                        <label for="ambiental_gestaoEfluentes_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gestaoEfluentes_sim" name="ambiental_gestaoEfluentes" value="0">
+                                                                        <label for="ambiental_gestaoEfluentes_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gestaoEfluentes_nao" name="ambiental_gestaoEfluentes" value="1">
+                                                                        <label for="ambiental_gestaoEfluentes_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gestaoEfluentes_np" name="ambiental_gestaoEfluentes" value="2">
+                                                                        
+                                                                        <p>22. A empresa realiza a gestão de efluentes conforme estabelecido pela legislação, implementando controles tradicionais para a conservação da água? Além disso, está analisando a viabilidade de adotar métodos alternativos de controle para melhorar ainda mais a eficiência e a sustentabilidade?</p>
+                                                                        <label for="ambiental_controlesTradicionais_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_controlesTradicionais_sim" name="ambiental_controlesTradicionais" value="0">
+                                                                        <label for="ambiental_controlesTradicionais_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_controlesTradicionais_nao" name="ambiental_controlesTradicionais" value="1">
+                                                                        <label for="ambiental_controlesTradicionais_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_controlesTradicionais_np" name="ambiental_controlesTradicionais" value="2">
+                                                                        
+                                                                        <p>23. A empresa realiza a gestão de efluentes conforme a legislação vigente, monitorando as vazões e características dos efluentes gerados? Além disso, substituiu matérias-primas que poderiam causar impactos negativos ao meio ambiente, promovendo práticas mais sustentáveis e responsáveis?</p>
+                                                                        <label for="ambiental_praticasSustentaveis_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_praticasSustentaveis_sim" name="ambiental_praticasSustentaveis" value="0">
+                                                                        <label for="ambiental_praticasSustentaveis_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_praticasSustentaveis_nao" name="ambiental_praticasSustentaveis" value="1">
+                                                                        <label for="ambiental_praticasSustentaveis_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_praticasSustentaveis_np" name="ambiental_praticasSustentaveis" value="2">
+                                                                        
+                                                                        <p>24. A empresa realiza a gestão de efluentes conforme a legislação vigente, monitorando as vazões e características dos efluentes gerados? Além disso, substituiu matérias-primas que poderiam causar impactos negativos ao meio ambiente e estabeleceu um plano com objetivos e metas para reduzir o volume de efluentes gerados?</p>
+                                                                        <label for="ambiental_planoefluente_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_planoefluente_sim" name="ambiental_planoefluente" value="0">
+                                                                        <label for="ambiental_planoefluente_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_planoefluente_nao" name="ambiental_planoefluente" value="1">
+                                                                        <label for="ambiental_planoefluente_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_planoefluente_np" name="ambiental_planoefluente" value="2">
+                                                                        
+                                                                        <p>25. A empresa realiza a gestão de efluentes conforme a legislação vigente, monitorando as vazões e características dos efluentes gerados? Além disso, substituiu matérias-primas que poderiam causar impactos negativos ao meio ambiente, estabeleceu um plano com objetivos e metas para reduzir o volume de efluentes gerados e implementou inovações tecnológicas para atingir essas metas?</p>
+                                                                        <label for="ambiental_gestaoEfluentesInovacoes_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gestaoEfluentesInovacoes_sim" name="ambiental_gestaoEfluentesInovacoes" value="0">
+                                                                        <label for="ambiental_gestaoEfluentesInovacoes_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gestaoEfluentesInovacoes_nao" name="ambiental_gestaoEfluentesInovacoes" value="1">
+                                                                        <label for="ambiental_gestaoEfluentesInovacoes_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gestaoEfluentesInovacoes_np" name="ambiental_gestaoEfluentesInovacoes" value="2">
+                                                                        
+                                                                        <br><br><p>Conservação e uso sustentável da biodiversidade</p>
+                                                                        <p>26. A empresa atende os requisitos legais referente a conservação da biodiversidade e e serviços ecossistêmicos?</p>
+                                                                        <label for="ambiental_biodiversidadeLegais_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_biodiversidadeLegais_sim" name="ambiental_biodiversidadeLegais" value="0">
+                                                                        <label for="ambiental_biodiversidadeLegais_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_biodiversidadeLegais_nao" name="ambiental_biodiversidadeLegais" value="1">
+                                                                        <label for="ambiental_biodiversidadeLegais_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_biodiversidadeLegais_np" name="ambiental_biodiversidadeLegais" value="2">
+                                                                        
+                                                                        <p>27. A empresa adota práticas para a conservação da biodiversidade?</p>
+                                                                        <label for="ambiental_praticasDispersas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_praticasDispersas_sim" name="ambiental_praticasDispersas" value="0">
+                                                                        <label for="ambiental_praticasDispersas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_praticasDispersas_nao" name="ambiental_praticasDispersas" value="1">
+                                                                        <label for="ambiental_praticasDispersas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_praticasDispersas_np" name="ambiental_praticasDispersas" value="2">
+                                                                        
+                                                                        <p>28. A empresa incorpora a conservação e o uso sustentável da biodiversidade em suas práticas gerenciais, implementando ações integradas?</p>
+                                                                        <label for="ambiental_biodiversidadeIntegradas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_biodiversidadeIntegradas_sim" name="ambiental_biodiversidadeIntegradas" value="0">
+                                                                        <label for="ambiental_biodiversidadeIntegradas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_biodiversidadeIntegradas_nao" name="ambiental_biodiversidadeIntegradas" value="1">
+                                                                        <label for="ambiental_biodiversidadeIntegradas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_biodiversidadeIntegradas_np" name="ambiental_biodiversidadeIntegradas" value="2">
+                                                                        
+                                                                        <p>29. A empresa integra a conservação e o uso sustentável da biodiversidade em sua estratégia de negócios? Além disso, adota práticas inovadoras e colabora com stakeholders para promover a preservação dos recursos naturais, garantindo um impacto positivo no meio ambiente e na sociedade?</p>
+                                                                        <label for="ambiental_biodiversidadeEstrategia_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_biodiversidadeEstrategia_sim" name="ambiental_biodiversidadeEstrategia" value="0">
+                                                                        <label for="ambiental_biodiversidadeEstrategia_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_biodiversidadeEstrategia_nao" name="ambiental_biodiversidadeEstrategia" value="1">
+                                                                        <label for="ambiental_biodiversidadeEstrategia_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_biodiversidadeEstrategia_np" name="ambiental_biodiversidadeEstrategia" value="2">
+                                                                        
+                                                                        <p>30. A empresa valoriza a conservação e o uso sustentável da biodiversidade, tratando essa questão como uma prioridade em seu engajamento estruturado com todas as partes interessadas?</p>
+                                                                        <label for="ambiental_biodiversidadePrioridade_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_biodiversidadePrioridade_sim" name="ambiental_biodiversidadePrioridade" value="0">
+                                                                        <label for="ambiental_biodiversidadePrioridade_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_biodiversidadePrioridade_nao" name="ambiental_biodiversidadePrioridade" value="1">
+                                                                        <label for="ambiental_biodiversidadePrioridade_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_biodiversidadePrioridade_np" name="ambiental_biodiversidadePrioridade" value="2">
+                                                                        
+                                                                        <br><br><p>Uso sustentável do solo</p>
+                                                                        <p>31. A empresa atende os requisitos legais sobre o uso do solo ?</p>
+                                                                        <label for="ambiental_usoSoloLegais_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_usoSoloLegais_sim" name="ambiental_usoSoloLegais" value="0">
+                                                                        <label for="ambiental_usoSoloLegais_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_usoSoloLegais_nao" name="ambiental_usoSoloLegais" value="1">
+                                                                        <label for="ambiental_usoSoloLegais_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_usoSoloLegais_np" name="ambiental_usoSoloLegais" value="2">
+                                                                        
+                                                                        <p>32. A empresa implementa iniciativas voltadas para o uso sustentável do solo?</p>
+                                                                        <label for="ambiental_iniciativasSolo_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_iniciativasSolo_sim" name="ambiental_iniciativasSolo" value="0">
+                                                                        <label for="ambiental_iniciativasSolo_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_iniciativasSolo_nao" name="ambiental_iniciativasSolo" value="1">
+                                                                        <label for="ambiental_iniciativasSolo_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_iniciativasSolo_np" name="ambiental_iniciativasSolo" value="2">
+                                                                        
+                                                                        <p>33. A empresa incorpora práticas de uso sustentável do solo no gerenciamento de seus processos?</p>
+                                                                        <label for="ambiental_usoSoloPraticas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_usoSoloPraticas_sim" name="ambiental_usoSoloPraticas" value="0">
+                                                                        <label for="ambiental_usoSoloPraticas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_usoSoloPraticas_nao" name="ambiental_usoSoloPraticas" value="1">
+                                                                        <label for="ambiental_usoSoloPraticas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_usoSoloPraticas_np" name="ambiental_usoSoloPraticas" value="2">
+                                                                        
+                                                                        <p>34. A empresa considera o uso sustentável do solo um aspecto estratégico fundamental para o negócio? Integrando essa prática em sua estratégia corporativa, a empresa não apenas cumpre suas obrigações legais, mas também adota medidas proativas para promover a conservação ambiental?</p>
+                                                                        <label for="ambiental_usoSoloEstrategico_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_usoSoloEstrategico_sim" name="ambiental_usoSoloEstrategico" value="0">
+                                                                        <label for="ambiental_usoSoloEstrategico_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_usoSoloEstrategico_nao" name="ambiental_usoSoloEstrategico" value="1">
+                                                                        <label for="ambiental_usoSoloEstrategico_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_usoSoloEstrategico_np" name="ambiental_usoSoloEstrategico" value="2">
+                                                                        
+                                                                        <p>35. A empresa incentiva ativamente o engajamento das partes interessadas em suas iniciativas de uso sustentável do solo?</p>
+                                                                        <label for="ambiental_engajamentoSolo_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_engajamentoSolo_sim" name="ambiental_engajamentoSolo" value="0">
+                                                                        <label for="ambiental_engajamentoSolo_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_engajamentoSolo_nao" name="ambiental_engajamentoSolo" value="1">
+                                                                        <label for="ambiental_engajamentoSolo_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_engajamentoSolo_np" name="ambiental_engajamentoSolo" value="2">
+                                                                        
+                                                                        <br><br><p>Economia circular</p>
+                                                                        <p>36. A empresa possui iniciativas relacionadas à economia circular?</p>
+                                                                        <label for="ambiental_economiaCircularIniciais_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_economiaCircularIniciais_sim" name="ambiental_economiaCircularIniciais" value="0">
+                                                                        <label for="ambiental_economiaCircularIniciais_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_economiaCircularIniciais_nao" name="ambiental_economiaCircularIniciais" value="1">
+                                                                        <label for="ambiental_economiaCircularIniciais_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_economiaCircularIniciais_np" name="ambiental_economiaCircularIniciais" value="2">
+                                                                        
+                                                                        <p>37. A empresa desenvolve seus produtos com uma abordagem focada na redução dos impactos ao longo de todo o ciclo de vida?</p>
+                                                                        <label for="ambiental_abordagemCicloVida_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_abordagemCicloVida_sim" name="ambiental_abordagemCicloVida" value="0">
+                                                                        <label for="ambiental_abordagemCicloVida_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_abordagemCicloVida_nao" name="ambiental_abordagemCicloVida" value="1">
+                                                                        <label for="ambiental_abordagemCicloVida_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_abordagemCicloVida_np" name="ambiental_abordagemCicloVida" value="2">
+                                                                        
+                                                                        <p>38. A empresa considera a redução de impactos no ciclo de vida dos produtos, repensando o design e priorizando o uso de materiais reciclados?</p>
+                                                                        <label for="ambiental_materiaisreciclados_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_materiaisreciclados_sim" name="ambiental_materiaisreciclados" value="0">
+                                                                        <label for="ambiental_materiaisreciclados_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_materiaisreciclados_nao" name="ambiental_materiaisreciclados" value="1">
+                                                                        <label for="ambiental_materiaisreciclados_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_materiaisreciclados_np" name="ambiental_materiaisreciclados" value="2">
+                                                                        
+                                                                        <p>39. A empresa desenvolve seus produtos com uma abordagem focada na redução dos impactos ao longo de todo o ciclo de vida? Repensando o design dos produtos e priorizando a utilização de materiais reciclados, a empresa busca minimizar os efeitos ambientais desde a concepção até o descarte? Além disso, a empresa estabeleceu indicadores e metas claras em direção à circularidade e adota medidas para a extensão da vida útil dos produtos?</p>
+                                                                        <label for="ambiental_abordagemCircularidade_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_abordagemCircularidade_sim" name="ambiental_abordagemCircularidade" value="0">
+                                                                        <label for="ambiental_abordagemCircularidade_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_abordagemCircularidade_nao" name="ambiental_abordagemCircularidade" value="1">
+                                                                        <label for="ambiental_abordagemCircularidade_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_abordagemCircularidade_np" name="ambiental_abordagemCircularidade" value="2">
+                                                                        
+                                                                        <p>40. A empresa desenvolve seus produtos com uma abordagem que visa reduzir os impactos ao longo de todo o ciclo de vida? Repensando o design e priorizando a utilização de materiais reciclados, a empresa busca minimizar os efeitos ambientais desde a concepção até o descarte? Além disso, a empresa estabeleceu indicadores e metas claras para alcançar a circularidade e adota medidas para prolongar a vida útil dos produtos. Para fortalecer essa abordagem, a empresa mantém parcerias estratégicas com outras indústrias, promovendo a simbiose industrial e a troca de recursos e conhecimentos?</p>
+                                                                        <label for="ambiental_parceriasEstrategicas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_parceriasEstrategicas_sim" name="ambiental_parceriasEstrategicas" value="0">
+                                                                        <label for="ambiental_parceriasEstrategicas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_parceriasEstrategicas_nao" name="ambiental_parceriasEstrategicas" value="1">
+                                                                        <label for="ambiental_parceriasEstrategicas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_parceriasEstrategicas_np" name="ambiental_parceriasEstrategicas" value="2">
+                                                                        
+                                                                        <br><br><p>Gestão de resíduos</p>
+                                                                        
+                                                                        <p>41. A empresa realiza a classificação e quantificação dos resíduos conforme estabelecido na legislação vigente?</p>
+                                                                        <label for="ambiental_classificacaoResiduos_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_classificacaoResiduos_sim" name="ambiental_classificacaoResiduos" value="0">
+                                                                        <label for="ambiental_classificacaoResiduos_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_classificacaoResiduos_nao" name="ambiental_classificacaoResiduos" value="1">
+                                                                        <label for="ambiental_classificacaoResiduos_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_classificacaoResiduos_np" name="ambiental_classificacaoResiduos" value="2">
+                                                                        
+                                                                        <p>42. A empresa realiza a classificação e quantificação dos resíduos conforme estabelecido na legislação vigente, segregando-os diretamente na fonte?</p>
+                                                                        <label for="ambiental_segregacaoResiduos_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_segregacaoResiduos_sim" name="ambiental_segregacaoResiduos" value="0">
+                                                                        <label for="ambiental_segregacaoResiduos_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_segregacaoResiduos_nao" name="ambiental_segregacaoResiduos" value="1">
+                                                                        <label for="ambiental_segregacaoResiduos_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_segregacaoResiduos_np" name="ambiental_segregacaoResiduos" value="2">
+                                                                        
+                                                                        <p>43. A empresa realiza a classificação e quantificação dos resíduos conforme o sistema de gestão de resíduos implementado?</p>
+                                                                        <label for="ambiental_gestaoResiduosImplementado_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gestaoResiduosImplementado_sim" name="ambiental_gestaoResiduosImplementado" value="0">
+                                                                        <label for="ambiental_gestaoResiduosImplementado_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gestaoResiduosImplementado_nao" name="ambiental_gestaoResiduosImplementado" value="1">
+                                                                        <label for="ambiental_gestaoResiduosImplementado_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gestaoResiduosImplementado_np" name="ambiental_gestaoResiduosImplementado" value="2">
+                                                                        
+                                                                        <p>44. A empresa realiza a classificação e quantificação dos resíduos conforme o sistema de gestão de resíduos implementado, adotando também práticas de logística reversa?</p>
+                                                                        <label for="ambiental_logisticaReversa_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_logisticaReversa_sim" name="ambiental_logisticaReversa" value="0">
+                                                                        <label for="ambiental_logisticaReversa_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_logisticaReversa_nao" name="ambiental_logisticaReversa" value="1">
+                                                                        <label for="ambiental_logisticaReversa_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_logisticaReversa_np" name="ambiental_logisticaReversa" value="2">
+                                                                        
+                                                                        <p>45. A empresa realiza a classificação e quantificação dos resíduos conforme o sistema de gestão de resíduos implementado, adotando também práticas de logística reversa. Além disso, a empresa avalia rigorosamente os terceiros envolvidos para garantir a destinação correta dos resíduos?</p>
+                                                                        <label for="ambiental_avaliacaoTerceiros_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_avaliacaoTerceiros_sim" name="ambiental_avaliacaoTerceiros" value="0">
+                                                                        <label for="ambiental_avaliacaoTerceiros_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_avaliacaoTerceiros_nao" name="ambiental_avaliacaoTerceiros" value="1">
+                                                                        <label for="ambiental_avaliacaoTerceiros_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_avaliacaoTerceiros_np" name="ambiental_avaliacaoTerceiros" value="2">
+                                                                        
+                                                                        <br><br><p>Gestão ambiental</p>
+                                                                        
+                                                                        <p>46. A empresa cumpre as legislações ambientais?</p>
+                                                                        <label for="ambiental_SGAnaoImplementado_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_SGAnaoImplementado_sim" name="ambiental_SGAnaoImplementado" value="0">
+                                                                        <label for="ambiental_SGAnaoImplementado_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_SGAnaoImplementado_nao" name="ambiental_SGAnaoImplementado" value="1">
+                                                                        <label for="ambiental_SGAnaoImplementado_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_SGAnaoImplementado_np" name="ambiental_SGAnaoImplementado" value="2">
+                                                                        
+                                                                        <p>47. A empresa deu início ou implementou o processo de implementação do Sistema de Gestão Ambiental (SGA), concluindo a fase de identificação de aspectos e análise de riscos?</p>
+                                                                        <label for="ambiental_SGAIdentificacao_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_SGAIdentificacao_sim" name="ambiental_SGAIdentificacao" value="0">
+                                                                        <label for="ambiental_SGAIdentificacao_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_SGAIdentificacao_nao" name="ambiental_SGAIdentificacao" value="1">
+                                                                        <label for="ambiental_SGAIdentificacao_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_SGAIdentificacao_np" name="ambiental_SGAIdentificacao" value="2">
+                                                                        
+                                                                        <p>48. A empresa estabeleceu controles operacionais rigorosos e realiza o monitoramento contínuo de seu desempenho ambiental?</p>
+                                                                        <label for="ambiental_controlesOperacionais_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_controlesOperacionais_sim" name="ambiental_controlesOperacionais" value="0">
+                                                                        <label for="ambiental_controlesOperacionais_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_controlesOperacionais_nao" name="ambiental_controlesOperacionais" value="1">
+                                                                        <label for="ambiental_controlesOperacionais_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_controlesOperacionais_np" name="ambiental_controlesOperacionais" value="2">
+                                                                        
+                                                                        <p>49. A empresa promoveu a conscientização de partes interessadas internas e externas sobre sua gestão ambiental?</p>
+                                                                        <label for="ambiental_conscientizacaoGestao_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_conscientizacaoGestao_sim" name="ambiental_conscientizacaoGestao" value="0">
+                                                                        <label for="ambiental_conscientizacaoGestao_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_conscientizacaoGestao_nao" name="ambiental_conscientizacaoGestao" value="1">
+                                                                        <label for="ambiental_conscientizacaoGestao_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_conscientizacaoGestao_np" name="ambiental_conscientizacaoGestao" value="2">
+                                                                        
+                                                                        <p>50. A empresa assumiu uma posição de liderança em seu setor de negócios, especialmente no que diz respeito à gestão ambiental e à prevenção da poluição? Além de se destacar pela excelência em suas práticas sustentáveis, a empresa implementa medidas inovadoras para minimizar os impactos ambientais de suas operações?</p>
+                                                                        <label for="ambiental_liderancaAmbiental_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_liderancaAmbiental_sim" name="ambiental_liderancaAmbiental" value="0">
+                                                                        <label for="ambiental_liderancaAmbiental_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_liderancaAmbiental_nao" name="ambiental_liderancaAmbiental" value="1">
+                                                                        <label for="ambiental_liderancaAmbiental_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_liderancaAmbiental_np" name="ambiental_liderancaAmbiental" value="2">
+                                                                        
+                                                                        <br><br><p>Prevenção da poluição sonora (ruídos e vibrações)</p>
+                                                                        
+                                                                        <p>51. A empresa realiza o controle da poluição sonora conforme estabelecido na legislação vigente?</p>
+                                                                        <label for="ambiental_poluicaoSonoraLegais_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_poluicaoSonoraLegais_sim" name="ambiental_poluicaoSonoraLegais" value="0">
+                                                                        <label for="ambiental_poluicaoSonoraLegais_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_poluicaoSonoraLegais_nao" name="ambiental_poluicaoSonoraLegais" value="1">
+                                                                        <label for="ambiental_poluicaoSonoraLegais_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_poluicaoSonoraLegais_np" name="ambiental_poluicaoSonoraLegais" value="2">
+                                                                        
+                                                                        <p>52. A empresa realiza o controle da poluição sonora conforme estabelecido na legislação vigente, monitorando rigorosamente os níveis de ruídos e vibrações?</p>
+                                                                        <label for="ambiental_monitoramentoSonoro_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_monitoramentoSonoro_sim" name="ambiental_monitoramentoSonoro" value="0">
+                                                                        <label for="ambiental_monitoramentoSonoro_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_monitoramentoSonoro_nao" name="ambiental_monitoramentoSonoro" value="1">
+                                                                        <label for="ambiental_monitoramentoSonoro_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_monitoramentoSonoro_np" name="ambiental_monitoramentoSonoro" value="2">
+                                                                        
+                                                                        <p>53. A empresa realiza o controle da poluição sonora conforme estabelecido na legislação vigente, implementando medidas para substituir ou eliminar as fontes de risco?</p>
+                                                                        <label for="ambiental_substituicaoRiscosSonoros_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_substituicaoRiscosSonoros_sim" name="ambiental_substituicaoRiscosSonoros" value="0">
+                                                                        <label for="ambiental_substituicaoRiscosSonoros_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_substituicaoRiscosSonoros_nao" name="ambiental_substituicaoRiscosSonoros" value="1">
+                                                                        <label for="ambiental_substituicaoRiscosSonoros_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_substituicaoRiscosSonoros_np" name="ambiental_substituicaoRiscosSonoros" value="2">
+                                                                        
+                                                                        <p>54. A empresa realiza o controle da poluição sonora conforme estabelecido na legislação vigente, envolvendo ativamente partes interessadas externas, como a comunidade do entorno e a cadeia de valor?</p>
+                                                                        <label for="ambiental_engajamentoSonoro_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_engajamentoSonoro_sim" name="ambiental_engajamentoSonoro" value="0">
+                                                                        <label for="ambiental_engajamentoSonoro_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_engajamentoSonoro_nao" name="ambiental_engajamentoSonoro" value="1">
+                                                                        <label for="ambiental_engajamentoSonoro_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_engajamentoSonoro_np" name="ambiental_engajamentoSonoro" value="2">
+                                                                        
+                                                                        <p></p><p>55. A empresa assume um papel de liderança em seu setor de negócios, participando ativamente de fóruns sobre poluição sonora?</p>
+                                                                        <label for="ambiental_lideranca_sonora_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_lideranca_sonora_sim" name="ambiental_lideranca_sonora" value="0">
+                                                                        <label for="ambiental_lideranca_sonora_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_lideranca_sonora_nao" name="ambiental_lideranca_sonora" value="1">
+                                                                        <label for="ambiental_lideranca_sonora_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_lideranca_sonora_np" name="ambiental_lideranca_sonora" value="2">
+                                                                        
+                                                                        <br><br><p>Qualidade do ar (emissão de poluentes)</p>
+                                                                        
+                                                                        <p>56. A empresa realiza a gestão da qualidade do ar em conformidade com as normas estabelecidas na legislação vigente?</p>
+                                                                        <label for="ambiental_gestao_ar_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gestao_ar_sim" name="ambiental_gestao_ar" value="0">
+                                                                        <label for="ambiental_gestao_ar_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gestao_ar_nao" name="ambiental_gestao_ar" value="1">
+                                                                        <label for="ambiental_gestao_ar_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gestao_ar_np" name="ambiental_gestao_ar" value="2">
+                                                                        
+                                                                        <p>57. A empresa realiza a gestão da qualidade do ar em conformidade com as normas estabelecidas na legislação vigente, monitorando rigorosamente as emissões?</p>
+                                                                        <label for="ambiental_gestao_ar_monitoramento_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gestao_ar_monitoramento_sim" name="ambiental_gestao_ar_monitoramento" value="0">
+                                                                        <label for="ambiental_gestao_ar_monitoramento_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gestao_ar_monitoramento_nao" name="ambiental_gestao_ar_monitoramento" value="1">
+                                                                        <label for="ambiental_gestao_ar_monitoramento_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gestao_ar_monitoramento_np" name="ambiental_gestao_ar_monitoramento" value="2">
+                                                                        
+                                                                        <p>58. A empresa realiza a gestão da qualidade do ar em conformidade com as normas estabelecidas na legislação vigente, implementando medidas que visam substituir ou eliminar as fontes de emissão de poluentes?</p>
+                                                                        <label for="ambiental_gestao_ar_substituicao_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gestao_ar_substituicao_sim" name="ambiental_gestao_ar_substituicao" value="0">
+                                                                        <label for="ambiental_gestao_ar_substituicao_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gestao_ar_substituicao_nao" name="ambiental_gestao_ar_substituicao" value="1">
+                                                                        <label for="ambiental_gestao_ar_substituicao_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gestao_ar_substituicao_np" name="ambiental_gestao_ar_substituicao" value="2">
+                                                                        
+                                                                        <p>59. A empresa realiza a gestão da qualidade do ar em conformidade com as normas estabelecidas na legislação vigente, envolvendo partes interessadas externas, como a comunidade do entorno e a cadeia de valor?</p>
+                                                                        <label for="ambiental_gestao_ar_partes_interessadas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gestao_ar_partes_interessadas_sim" name="ambiental_gestao_ar_partes_interessadas" value="0">
+                                                                        <label for="ambiental_gestao_ar_partes_interessadas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gestao_ar_partes_interessadas_nao" name="ambiental_gestao_ar_partes_interessadas" value="1">
+                                                                        <label for="ambiental_gestao_ar_partes_interessadas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gestao_ar_partes_interessadas_np" name="ambiental_gestao_ar_partes_interessadas" value="2">
+                                                                        
+                                                                        <p>60. A empresa assume um papel de liderança em seu setor de negócios, participando ativamente de fóruns sobre gestão da qualidade do ar?</p>
+                                                                        <label for="ambiental_lideranca_qualidade_ar_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_lideranca_qualidade_ar_sim" name="ambiental_lideranca_qualidade_ar" value="0">
+                                                                        <label for="ambiental_lideranca_qualidade_ar_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_lideranca_qualidade_ar_nao" name="ambiental_lideranca_qualidade_ar" value="1">
+                                                                        <label for="ambiental_lideranca_qualidade_ar_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_lideranca_qualidade_ar_np" name="ambiental_lideranca_qualidade_ar" value="2">
+                                                                        
+                                                                        <br><br><p>Gerenciamento de áreas contaminadas</p>
+                                                                        
+                                                                        <p>61. A empresa realiza o gerenciamento de áreas contaminadas em conformidade com as normas estabelecidas na legislação vigente?</p>
+                                                                        <label for="ambiental_gerenciamento_areas_contaminadas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_areas_contaminadas_sim" name="ambiental_gerenciamento_areas_contaminadas" value="0">
+                                                                        <label for="ambiental_gerenciamento_areas_contaminadas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_areas_contaminadas_nao" name="ambiental_gerenciamento_areas_contaminadas" value="1">
+                                                                        <label for="ambiental_gerenciamento_areas_contaminadas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_areas_contaminadas_np" name="ambiental_gerenciamento_areas_contaminadas" value="2">
+                                                                        
+                                                                        <p>62. A empresa realiza o gerenciamento de áreas contaminadas em conformidade com as normas estabelecidas na legislação vigente, monitorando rigorosamente o solo e as águas subterrâneas?</p>
+                                                                        <label for="ambiental_gerenciamento_areas_contaminadas_monitoramento_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_areas_contaminadas_monitoramento_sim" name="ambiental_gerenciamento_areas_contaminadas_monitoramento" value="0">
+                                                                        <label for="ambiental_gerenciamento_areas_contaminadas_monitoramento_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_areas_contaminadas_monitoramento_nao" name="ambiental_gerenciamento_areas_contaminadas_monitoramento" value="1">
+                                                                        <label for="ambiental_gerenciamento_areas_contaminadas_monitoramento_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_areas_contaminadas_monitoramento_np" name="ambiental_gerenciamento_areas_contaminadas_monitoramento" value="2">
+                                                                        
+                                                                        <p>63. A empresa realiza o gerenciamento de áreas contaminadas em conformidade com as normas estabelecidas na legislação vigente, implementando medidas que visam substituir ou eliminar as fontes de emissão de poluentes?</p>
+                                                                        <label for="ambiental_gerenciamento_areas_contaminadas_substituicao_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_areas_contaminadas_substituicao_sim" name="ambiental_gerenciamento_areas_contaminadas_substituicao" value="0">
+                                                                        <label for="ambiental_gerenciamento_areas_contaminadas_substituicao_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_areas_contaminadas_substituicao_nao" name="ambiental_gerenciamento_areas_contaminadas_substituicao" value="1">
+                                                                        <label for="ambiental_gerenciamento_areas_contaminadas_substituicao_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_areas_contaminadas_substituicao_np" name="ambiental_gerenciamento_areas_contaminadas_substituicao" value="2">
+                                                                        
+                                                                        <p>64. A empresa realiza o gerenciamento de áreas contaminadas em conformidade com as normas estabelecidas na legislação vigente, envolvendo partes interessadas externas, como a comunidade do entorno e a cadeia de valor?</p>
+                                                                        <label for="ambiental_gerenciamento_areas_contaminadas_partes_interessadas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_areas_contaminadas_partes_interessadas_sim" name="ambiental_gerenciamento_areas_contaminadas_partes_interessadas" value="0">
+                                                                        <label for="ambiental_gerenciamento_areas_contaminadas_partes_interessadas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_areas_contaminadas_partes_interessadas_nao" name="ambiental_gerenciamento_areas_contaminadas_partes_interessadas" value="1">
+                                                                        <label for="ambiental_gerenciamento_areas_contaminadas_partes_interessadas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_areas_contaminadas_partes_interessadas_np" name="ambiental_gerenciamento_areas_contaminadas_partes_interessadas" value="2">
+                                                                        
+                                                                        <p>65. A empresa assume um papel de liderança em seu setor de negócios, participando ativamente de fóruns sobre gerenciamento de áreas contaminadas? Além disso, ela apresenta ideias e ações inovadoras que visam não apenas a melhoria de seu desempenho, mas também a promoção de práticas sustentáveis e a conscientização sobre os impactos ambientais?</p>
+                                                                        <label for="ambiental_lideranca_areas_contaminadas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_lideranca_areas_contaminadas_sim" name="ambiental_lideranca_areas_contaminadas" value="0">
+                                                                        <label for="ambiental_lideranca_areas_contaminadas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_lideranca_areas_contaminadas_nao" name="ambiental_lideranca_areas_contaminadas" value="1">
+                                                                        <label for="ambiental_lideranca_areas_contaminadas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_lideranca_areas_contaminadas_np" name="ambiental_lideranca_areas_contaminadas" value="2">
+                                                                        
+                                                                        <br><br><p>Produtos perigosos</p>
+                                                                        
+                                                                        <p>66. A empresa realiza o gerenciamento de produtos perigosos em conformidade com as normas estabelecidas na legislação vigente?</p>
+                                                                        <label for="ambiental_gerenciamento_produtos_perigosos_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_produtos_perigosos_sim" name="ambiental_gerenciamento_produtos_perigosos" value="0">
+                                                                        <label for="ambiental_gerenciamento_produtos_perigosos_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_produtos_perigosos_nao" name="ambiental_gerenciamento_produtos_perigosos" value="1">
+                                                                        <label for="ambiental_gerenciamento_produtos_perigosos_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_produtos_perigosos_np" name="ambiental_gerenciamento_produtos_perigosos" value="2">
+                                                                        
+                                                                        <p>67. A empresa realiza o gerenciamento de produtos perigosos em conformidade com as normas estabelecidas na legislação vigente, tomando ações que diminuem os riscos relacionados ao uso desses produtos? Além disso, ela adota práticas avançadas para o armazenamento, manuseio e descarte seguro, utilizando tecnologias de ponta para minimizar os impactos ambientais e à saúde?</p>
+                                                                        <label for="ambiental_gerenciamento_produtos_perigosos_avancado_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_produtos_perigosos_avancado_sim" name="ambiental_gerenciamento_produtos_perigosos_avancado" value="0">
+                                                                        <label for="ambiental_gerenciamento_produtos_perigosos_avancado_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_produtos_perigosos_avancado_nao" name="ambiental_gerenciamento_produtos_perigosos_avancado" value="1">
+                                                                        <label for="ambiental_gerenciamento_produtos_perigosos_avancado_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_produtos_perigosos_avancado_np" name="ambiental_gerenciamento_produtos_perigosos_avancado" value="2">
+                                                                        
+                                                                        <p>68. A empresa realiza o gerenciamento de produtos perigosos em conformidade com as normas estabelecidas na legislação vigente, implementando medidas que visam substituir ou eliminar as fontes de riscos associados a esses produtos?</p>
+                                                                        <label for="ambiental_gerenciamento_produtos_perigosos_substituicao_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_produtos_perigosos_substituicao_sim" name="ambiental_gerenciamento_produtos_perigosos_substituicao" value="0">
+                                                                        <label for="ambiental_gerenciamento_produtos_perigosos_substituicao_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_produtos_perigosos_substituicao_nao" name="ambiental_gerenciamento_produtos_perigosos_substituicao" value="1">
+                                                                        <label for="ambiental_gerenciamento_produtos_perigosos_substituicao_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_produtos_perigosos_substituicao_np" name="ambiental_gerenciamento_produtos_perigosos_substituicao" value="2">
+                                                                        
+                                                                        <p>69. A empresa realiza o gerenciamento de produtos perigosos em conformidade com as normas estabelecidas na legislação vigente, envolvendo partes interessadas externas, como a comunidade do entorno e a cadeia de valor?</p>
+                                                                        <label for="ambiental_gerenciamento_produtos_perigosos_partes_interessadas_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_produtos_perigosos_partes_interessadas_sim" name="ambiental_gerenciamento_produtos_perigosos_partes_interessadas" value="0">
+                                                                        <label for="ambiental_gerenciamento_produtos_perigosos_partes_interessadas_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_produtos_perigosos_partes_interessadas_nao" name="ambiental_gerenciamento_produtos_perigosos_partes_interessadas" value="1">
+                                                                        <label for="ambiental_gerenciamento_produtos_perigosos_partes_interessadas_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_gerenciamento_produtos_perigosos_partes_interessadas_np" name="ambiental_gerenciamento_produtos_perigosos_partes_interessadas" value="2">
+                                                                        
+                                                                        <p>70. A empresa assume um papel de liderança em seu setor de negócios, participando ativamente de fóruns sobre produtos perigosos? Além disso, ela apresenta ideias e ações inovadoras que visam não apenas a melhoria de seu desempenho, mas também a promoção de práticas seguras e sustentáveis?</p>
+                                                                        <label for="ambiental_lideranca_produtos_perigosos_sim">Sim</label>
+                                                                        <input type="radio" id="ambiental_lideranca_produtos_perigosos_sim" name="ambiental_lideranca_produtos_perigosos" value="0">
+                                                                        <label for="ambiental_lideranca_produtos_perigosos_nao">Não</label>
+                                                                        <input type="radio" id="ambiental_lideranca_produtos_perigosos_nao" name="ambiental_lideranca_produtos_perigosos" value="1">
+                                                                        <label for="ambiental_lideranca_produtos_perigosos_np">Não Aplicado</label>
+                                                                        <input type="radio" id="ambiental_lideranca_produtos_perigosos_np" name="ambiental_lideranca_produtos_perigosos" value="2">                                                               
+
+                                                                        <br><br><h2>Indicadores</h2>
+
+                                                                        <p></p>
+                                                                        <p><label for="ambiental_uso_agua">Qual o consumo médio de água (m³/mês):</label>
+                                                                        <input type="number" id="ambiental_uso_agua_dia" name="ambiental_uso_agua_dia"></p>
+                                                                        <p><label for="ambiental_consumo_energia">Consumo médio de energia elétrica (mWh/mês):</label>
+                                                                        <input type="number" id="ambiental_consumo_energia_mes" name="ambiental_consumo_energia_mes"></p>
+                                                                        <p><label for="ambiental_emissoes_gee">Emissões diretas e indiretas média de GEE (toneladas/mês):</label>
+                                                                        <input type="number" id="ambiental_emissoes_gee_mes" name="ambiental_emissoes_gee_mes"></p>
+                                                                        <p><label for="ambiental_reciclagem_residuos">Reciclagem médio de resíduos por mês (%):</label>
+                                                                        <input type="number" id="ambiental_reciclagem_residuos_mes" name="ambiental_reciclagem_residuos_mes" step="0.01"></p>
+                                
+                                <!-- Botões de navegação -->
+                                <button type="button" onclick="goToPreviousPage()">Página Anterior</button>
+                                <button type="button" onclick="saveData()">Próxima Página</button>
+                            </form>
+
+                            <script>
+                                // Função para verificar se algum botão de rádio está selecionado
+                                function isAnyRadioButtonChecked(ids) {
+                                    return ids.some(id => document.getElementById(id)?.checked);
+                                }
+
+                                // Função para encontrar o valor do primeiro botão de rádio selecionado
+                                function findFirstCheckedElement(ids) {
+                                    return ids.map(id => document.getElementById(id))
+                                              .find(element => element?.checked)?.value || null;
+                                }
+
+                                // Função para redirecionar para a página anterior
+                                function goToPreviousPage() {
+                                    window.location.href = 'survey_registration.html';
+                                }
+
+                                // Função para salvar os dados e redirecionar para a próxima página
+                                function saveData() {
+                                    var isFormValid = true;
+
+                                    // Validação dos campos
+                                        
+                                        var ambiental_emissoesGEEChecked = !isAnyRadioButtonChecked(["ambiental_emissoesGEE_sim", "ambiental_emissoesGEE_nao", "ambiental_emissoesGEE_np"]);
+                                        var ambiental_inventarioGEEChecked = !isAnyRadioButtonChecked(["ambiental_inventarioGEE_sim", "ambiental_inventarioGEE_nao", "ambiental_inventarioGEE_np"]);
+                                        var ambiental_planoMitigacaoChecked = !isAnyRadioButtonChecked(["ambiental_planoMitigacao_sim", "ambiental_planoMitigacao_nao", "ambiental_planoMitigacao_np"]);
+                                        var ambiental_participacaoPlataformasChecked = !isAnyRadioButtonChecked(["ambiental_participacaoPlataformas_sim", "ambiental_participacaoPlataformas_nao", "ambiental_participacaoPlataformas_np"]);
+                                        var ambiental_divulgarInventarioChecked = !isAnyRadioButtonChecked(["ambiental_divulgarInventario_sim", "ambiental_divulgarInventario_nao", "ambiental_divulgarInventario_np"]);
+                                        var ambiental_grupoTrabalhoChecked = !isAnyRadioButtonChecked(["ambiental_grupoTrabalho_sim", "ambiental_grupoTrabalho_nao", "ambiental_grupoTrabalho_np"]);
+                                        var ambiental_identificacaoCenariosChecked = !isAnyRadioButtonChecked(["ambiental_identificacaoCenarios_sim", "ambiental_identificacaoCenarios_nao", "ambiental_identificacaoCenarios_np"]);
+                                        var ambiental_planoAdaptacaoChecked = !isAnyRadioButtonChecked(["ambiental_planoAdaptacao_sim", "ambiental_planoAdaptacao_nao", "ambiental_planoAdaptacao_np"]);
+                                        var ambiental_engajamentoStakeholdersChecked = !isAnyRadioButtonChecked(["ambiental_engajamentoStakeholders_sim", "ambiental_engajamentoStakeholders_nao", "ambiental_engajamentoStakeholders_np"]);
+                                        var ambiental_comunicacaoPlanoChecked = !isAnyRadioButtonChecked(["ambiental_comunicacaoPlano_sim", "ambiental_comunicacaoPlano_nao", "ambiental_comunicacaoPlano_np"]);
+                                        var ambiental_diagnosticoMetasChecked = !isAnyRadioButtonChecked(["ambiental_diagnosticoMetas_sim", "ambiental_diagnosticoMetas_nao", "ambiental_diagnosticoMetas_np"]);
+                                        var ambiental_energiaRenovavelChecked = !isAnyRadioButtonChecked(["ambiental_energiaRenovavel_sim", "ambiental_energiaRenovavel_nao", "ambiental_energiaRenovavel_np"]);
+                                        var ambiental_eficienciaEnergeticaChecked = !isAnyRadioButtonChecked(["ambiental_eficienciaEnergetica_sim", "ambiental_eficienciaEnergetica_nao", "ambiental_eficienciaEnergetica_np"]);
+                                        var ambiental_trocaLampadasChecked = !isAnyRadioButtonChecked(["ambiental_trocaLampadas_sim", "ambiental_trocaLampadas_nao", "ambiental_trocaLampadas_np"]);
+                                        var ambiental_iso50001Checked = !isAnyRadioButtonChecked(["ambiental_iso50001_sim", "ambiental_iso50001_nao", "ambiental_iso50001_np"]);
+                                        var ambiental_usoAguaSuperficialChecked = !isAnyRadioButtonChecked(["ambiental_usoAguaSuperficial_sim", "ambiental_usoAguaSuperficial_nao", "ambiental_usoAguaSuperficial_np"]);
+                                        var ambiental_monitoraAguaChecked = !isAnyRadioButtonChecked(["ambiental_monitoraAgua_sim", "ambiental_monitoraAgua_nao", "ambiental_monitoraAgua_np"]);
+                                        var ambiental_indicadoresMetasChecked = !isAnyRadioButtonChecked(["ambiental_indicadoresMetas_sim", "ambiental_indicadoresMetas_nao", "ambiental_indicadoresMetas_np"]);
+                                        var ambiental_projetosReusoChecked = !isAnyRadioButtonChecked(["ambiental_projetosReuso_sim", "ambiental_projetosReuso_nao", "ambiental_projetosReuso_np"]);
+                                        var ambiental_acoesExternasChecked = !isAnyRadioButtonChecked(["ambiental_acoesExternas_sim", "ambiental_acoesExternas_nao", "ambiental_acoesExternas_np"]);
+                                        var ambiental_gestaoEfluentesChecked = !isAnyRadioButtonChecked(["ambiental_gestaoEfluentes_sim", "ambiental_gestaoEfluentes_nao", "ambiental_gestaoEfluentes_np"]);
+                                        var ambiental_controlesTradicionaisChecked = !isAnyRadioButtonChecked(["ambiental_controlesTradicionais_sim", "ambiental_controlesTradicionais_nao", "ambiental_controlesTradicionais_np"]);
+                                        var ambiental_praticasSustentaveisChecked = !isAnyRadioButtonChecked(["ambiental_praticasSustentaveis_sim", "ambiental_praticasSustentaveis_nao", "ambiental_praticasSustentaveis_np"]);
+                                        var ambiental_planoefluenteChecked = !isAnyRadioButtonChecked(["ambiental_planoefluente_sim", "ambiental_planoefluente_nao", "ambiental_planoefluente_np"]);
+                                        var ambiental_gestaoEfluentesInovacoesChecked = !isAnyRadioButtonChecked(["ambiental_gestaoEfluentesInovacoes_sim", "ambiental_gestaoEfluentesInovacoes_nao", "ambiental_gestaoEfluentesInovacoes_np"]);
+                                        var ambiental_biodiversidadeLegaisChecked = !isAnyRadioButtonChecked(["ambiental_biodiversidadeLegais_sim", "ambiental_biodiversidadeLegais_nao", "ambiental_biodiversidadeLegais_np"]);
+                                        var ambiental_praticasDispersasChecked = !isAnyRadioButtonChecked(["ambiental_praticasDispersas_sim", "ambiental_praticasDispersas_nao", "ambiental_praticasDispersas_np"]);
+                                        var ambiental_biodiversidadeIntegradasChecked = !isAnyRadioButtonChecked(["ambiental_biodiversidadeIntegradas_sim", "ambiental_biodiversidadeIntegradas_nao", "ambiental_biodiversidadeIntegradas_np"]);
+                                        var ambiental_biodiversidadeEstrategiaChecked = !isAnyRadioButtonChecked(["ambiental_biodiversidadeEstrategia_sim", "ambiental_biodiversidadeEstrategia_nao", "ambiental_biodiversidadeEstrategia_np"]);
+                                        var ambiental_biodiversidadePrioridadeChecked = !isAnyRadioButtonChecked(["ambiental_biodiversidadePrioridade_sim", "ambiental_biodiversidadePrioridade_nao", "ambiental_biodiversidadePrioridade_np"]);
+                                        var ambiental_usoSoloLegaisChecked = !isAnyRadioButtonChecked(["ambiental_usoSoloLegais_sim", "ambiental_usoSoloLegais_nao", "ambiental_usoSoloLegais_np"]);
+                                        var ambiental_iniciativasSoloChecked = !isAnyRadioButtonChecked(["ambiental_iniciativasSolo_sim", "ambiental_iniciativasSolo_nao", "ambiental_iniciativasSolo_np"]);
+                                        var ambiental_usoSoloPraticasChecked = !isAnyRadioButtonChecked(["ambiental_usoSoloPraticas_sim", "ambiental_usoSoloPraticas_nao", "ambiental_usoSoloPraticas_np"]);
+                                        var ambiental_usoSoloEstrategicoChecked = !isAnyRadioButtonChecked(["ambiental_usoSoloEstrategico_sim", "ambiental_usoSoloEstrategico_nao", "ambiental_usoSoloEstrategico_np"]);
+                                        var ambiental_engajamentoSoloChecked = !isAnyRadioButtonChecked(["ambiental_engajamentoSolo_sim", "ambiental_engajamentoSolo_nao", "ambiental_engajamentoSolo_np"]);
+                                        var ambiental_economiaCircularIniciaisChecked = !isAnyRadioButtonChecked(["ambiental_economiaCircularIniciais_sim", "ambiental_economiaCircularIniciais_nao", "ambiental_economiaCircularIniciais_np"]);
+                                        var ambiental_abordagemCicloVidaChecked = !isAnyRadioButtonChecked(["ambiental_abordagemCicloVida_sim", "ambiental_abordagemCicloVida_nao", "ambiental_abordagemCicloVida_np"]);
+                                        var ambiental_materiaisrecicladosChecked = !isAnyRadioButtonChecked(["ambiental_materiaisreciclados_sim", "ambiental_materiaisreciclados_nao", "ambiental_materiaisreciclados_np"]);
+                                        var ambiental_abordagemCircularidadeChecked = !isAnyRadioButtonChecked(["ambiental_abordagemCircularidade_sim", "ambiental_abordagemCircularidade_nao", "ambiental_abordagemCircularidade_np"]);
+                                        var ambiental_parceriasEstrategicasChecked = !isAnyRadioButtonChecked(["ambiental_parceriasEstrategicas_sim", "ambiental_parceriasEstrategicas_nao", "ambiental_parceriasEstrategicas_np"]);
+                                        var ambiental_classificacaoResiduosChecked = !isAnyRadioButtonChecked(["ambiental_classificacaoResiduos_sim", "ambiental_classificacaoResiduos_nao", "ambiental_classificacaoResiduos_np"]);
+                                        var ambiental_segregacaoResiduosChecked = !isAnyRadioButtonChecked(["ambiental_segregacaoResiduos_sim", "ambiental_segregacaoResiduos_nao", "ambiental_segregacaoResiduos_np"]);
+                                        var ambiental_gestaoResiduosImplementadoChecked = !isAnyRadioButtonChecked(["ambiental_gestaoResiduosImplementado_sim", "ambiental_gestaoResiduosImplementado_nao", "ambiental_gestaoResiduosImplementado_np"]);
+                                        var ambiental_logisticaReversaChecked = !isAnyRadioButtonChecked(["ambiental_logisticaReversa_sim", "ambiental_logisticaReversa_nao", "ambiental_logisticaReversa_np"]);
+                                        var ambiental_avaliacaoTerceirosChecked = !isAnyRadioButtonChecked(["ambiental_avaliacaoTerceiros_sim", "ambiental_avaliacaoTerceiros_nao", "ambiental_avaliacaoTerceiros_np"]);
+                                        var ambiental_SGAnaoImplementadoChecked = !isAnyRadioButtonChecked(["ambiental_SGAnaoImplementado_sim", "ambiental_SGAnaoImplementado_nao", "ambiental_SGAnaoImplementado_np"]);
+                                        var ambiental_SGAIdentificacaoChecked = !isAnyRadioButtonChecked(["ambiental_SGAIdentificacao_sim", "ambiental_SGAIdentificacao_nao", "ambiental_SGAIdentificacao_np"]);
+                                        var ambiental_controlesOperacionaisChecked = !isAnyRadioButtonChecked(["ambiental_controlesOperacionais_sim", "ambiental_controlesOperacionais_nao", "ambiental_controlesOperacionais_np"]);
+                                        var ambiental_conscientizacaoGestaoChecked = !isAnyRadioButtonChecked(["ambiental_conscientizacaoGestao_sim", "ambiental_conscientizacaoGestao_nao", "ambiental_conscientizacaoGestao_np"]);
+                                        var ambiental_liderancaAmbientalChecked = !isAnyRadioButtonChecked(["ambiental_liderancaAmbiental_sim", "ambiental_liderancaAmbiental_nao", "ambiental_liderancaAmbiental_np"]);
+                                        var ambiental_poluicaoSonoraLegaisChecked = !isAnyRadioButtonChecked(["ambiental_poluicaoSonoraLegais_sim", "ambiental_poluicaoSonoraLegais_nao", "ambiental_poluicaoSonoraLegais_np"]);
+                                        var ambiental_monitoramentoSonoroChecked = !isAnyRadioButtonChecked(["ambiental_monitoramentoSonoro_sim", "ambiental_monitoramentoSonoro_nao", "ambiental_monitoramentoSonoro_np"]);
+                                        var ambiental_substituicaoRiscosSonorosChecked = !isAnyRadioButtonChecked(["ambiental_substituicaoRiscosSonoros_sim", "ambiental_substituicaoRiscosSonoros_nao", "ambiental_substituicaoRiscosSonoros_np"]);
+                                        var ambiental_engajamentoSonoroChecked = !isAnyRadioButtonChecked(["ambiental_engajamentoSonoro_sim", "ambiental_engajamentoSonoro_nao", "ambiental_engajamentoSonoro_np"]);
+                                        var ambiental_lideranca_sonoraChecked = !isAnyRadioButtonChecked(["ambiental_lideranca_sonora_sim", "ambiental_lideranca_sonora_nao", "ambiental_lideranca_sonora_np"]);
+                                        var ambiental_gestao_arChecked = !isAnyRadioButtonChecked(["ambiental_gestao_ar_sim", "ambiental_gestao_ar_nao", "ambiental_gestao_ar_np"]);
+                                        var ambiental_gestao_ar_monitoramentoChecked = !isAnyRadioButtonChecked(["ambiental_gestao_ar_monitoramento_sim", "ambiental_gestao_ar_monitoramento_nao", "ambiental_gestao_ar_monitoramento_np"]);
+                                        var ambiental_gestao_ar_substituicaoChecked = !isAnyRadioButtonChecked(["ambiental_gestao_ar_substituicao_sim", "ambiental_gestao_ar_substituicao_nao", "ambiental_gestao_ar_substituicao_np"]);
+                                        var ambiental_gestao_ar_partes_interessadasChecked = !isAnyRadioButtonChecked(["ambiental_gestao_ar_partes_interessadas_sim", "ambiental_gestao_ar_partes_interessadas_nao", "ambiental_gestao_ar_partes_interessadas_np"]);
+                                        var ambiental_lideranca_qualidade_arChecked = !isAnyRadioButtonChecked(["ambiental_lideranca_qualidade_ar_sim", "ambiental_lideranca_qualidade_ar_nao", "ambiental_lideranca_qualidade_ar_np"]);
+                                        var ambiental_gerenciamento_areas_contaminadasChecked = !isAnyRadioButtonChecked(["ambiental_gerenciamento_areas_contaminadas_sim", "ambiental_gerenciamento_areas_contaminadas_nao", "ambiental_gerenciamento_areas_contaminadas_np"]);
+                                        var ambiental_gerenciamento_areas_contaminadas_monitoramentoChecked = !isAnyRadioButtonChecked(["ambiental_gerenciamento_areas_contaminadas_monitoramento_sim", "ambiental_gerenciamento_areas_contaminadas_monitoramento_nao", "ambiental_gerenciamento_areas_contaminadas_monitoramento_np"]);
+                                        var ambiental_gerenciamento_areas_contaminadas_substituicaoChecked = !isAnyRadioButtonChecked(["ambiental_gerenciamento_areas_contaminadas_substituicao_sim", "ambiental_gerenciamento_areas_contaminadas_substituicao_nao", "ambiental_gerenciamento_areas_contaminadas_substituicao_np"]);
+                                        var ambiental_gerenciamento_areas_contaminadas_partes_interessadasChecked = !isAnyRadioButtonChecked(["ambiental_gerenciamento_areas_contaminadas_partes_interessadas_sim", "ambiental_gerenciamento_areas_contaminadas_partes_interessadas_nao", "ambiental_gerenciamento_areas_contaminadas_partes_interessadas_np"]);
+                                        var ambiental_lideranca_areas_contaminadasChecked = !isAnyRadioButtonChecked(["ambiental_lideranca_areas_contaminadas_sim", "ambiental_lideranca_areas_contaminadas_nao", "ambiental_lideranca_areas_contaminadas_np"]);
+                                        var ambiental_gerenciamento_produtos_perigososChecked = !isAnyRadioButtonChecked(["ambiental_gerenciamento_produtos_perigosos_sim", "ambiental_gerenciamento_produtos_perigosos_nao", "ambiental_gerenciamento_produtos_perigosos_np"]);
+                                        var ambiental_gerenciamento_produtos_perigosos_avancadoChecked = !isAnyRadioButtonChecked(["ambiental_gerenciamento_produtos_perigosos_avancado_sim", "ambiental_gerenciamento_produtos_perigosos_avancado_nao", "ambiental_gerenciamento_produtos_perigosos_avancado_np"]);
+                                        var ambiental_gerenciamento_produtos_perigosos_substituicaoChecked = !isAnyRadioButtonChecked(["ambiental_gerenciamento_produtos_perigosos_substituicao_sim", "ambiental_gerenciamento_produtos_perigosos_substituicao_nao", "ambiental_gerenciamento_produtos_perigosos_substituicao_np"]);
+                                        var ambiental_gerenciamento_produtos_perigosos_partes_interessadasChecked = !isAnyRadioButtonChecked(["ambiental_gerenciamento_produtos_perigosos_partes_interessadas_sim", "ambiental_gerenciamento_produtos_perigosos_partes_interessadas_nao", "ambiental_gerenciamento_produtos_perigosos_partes_interessadas_np"]);
+                                        var ambiental_lideranca_produtos_perigososChecked = !isAnyRadioButtonChecked(["ambiental_lideranca_produtos_perigosos_sim", "ambiental_lideranca_produtos_perigosos_nao", "ambiental_lideranca_produtos_perigosos_np"]);
+
+                                
+                                        if (
+                                            ambiental_emissoesGEEChecked ||
+                                            ambiental_inventarioGEEChecked ||
+                                            ambiental_planoMitigacaoChecked ||
+                                            ambiental_participacaoPlataformasChecked ||
+                                            ambiental_divulgarInventarioChecked ||
+                                            ambiental_grupoTrabalhoChecked ||
+                                            ambiental_identificacaoCenariosChecked ||
+                                            ambiental_planoAdaptacaoChecked ||
+                                            ambiental_engajamentoStakeholdersChecked ||
+                                            ambiental_comunicacaoPlanoChecked ||
+                                            ambiental_diagnosticoMetasChecked ||
+                                            ambiental_energiaRenovavelChecked ||
+                                            ambiental_eficienciaEnergeticaChecked ||
+                                            ambiental_trocaLampadasChecked ||
+                                            ambiental_iso50001Checked ||
+                                            ambiental_usoAguaSuperficialChecked ||
+                                            ambiental_monitoraAguaChecked ||
+                                            ambiental_indicadoresMetasChecked ||
+                                            ambiental_projetosReusoChecked ||
+                                            ambiental_acoesExternasChecked ||
+                                            ambiental_gestaoEfluentesChecked ||
+                                            ambiental_controlesTradicionaisChecked ||
+                                            ambiental_praticasSustentaveisChecked ||
+                                            ambiental_planoefluenteChecked ||
+                                            ambiental_gestaoEfluentesInovacoesChecked ||
+                                            ambiental_biodiversidadeLegaisChecked ||
+                                            ambiental_praticasDispersasChecked ||
+                                            ambiental_biodiversidadeIntegradasChecked ||
+                                            ambiental_biodiversidadeEstrategiaChecked ||
+                                            ambiental_biodiversidadePrioridadeChecked ||
+                                            ambiental_usoSoloLegaisChecked ||
+                                            ambiental_iniciativasSoloChecked ||
+                                            ambiental_usoSoloPraticasChecked ||
+                                            ambiental_usoSoloEstrategicoChecked ||
+                                            ambiental_engajamentoSoloChecked ||
+                                            ambiental_economiaCircularIniciaisChecked ||
+                                            ambiental_abordagemCicloVidaChecked ||
+                                            ambiental_materiaisrecicladosChecked ||
+                                            ambiental_abordagemCircularidadeChecked ||
+                                            ambiental_parceriasEstrategicasChecked ||
+                                            ambiental_classificacaoResiduosChecked ||
+                                            ambiental_segregacaoResiduosChecked ||
+                                            ambiental_gestaoResiduosImplementadoChecked ||
+                                            ambiental_logisticaReversaChecked ||
+                                            ambiental_avaliacaoTerceirosChecked ||
+                                            ambiental_SGAnaoImplementadoChecked ||
+                                            ambiental_SGAIdentificacaoChecked ||
+                                            ambiental_controlesOperacionaisChecked ||
+                                            ambiental_conscientizacaoGestaoChecked ||
+                                            ambiental_liderancaAmbientalChecked ||
+                                            ambiental_poluicaoSonoraLegaisChecked ||
+                                            ambiental_monitoramentoSonoroChecked ||
+                                            ambiental_substituicaoRiscosSonorosChecked ||
+                                            ambiental_engajamentoSonoroChecked ||
+                                            ambiental_lideranca_sonoraChecked ||
+                                            ambiental_gestao_arChecked ||
+                                            ambiental_gestao_ar_monitoramentoChecked ||
+                                            ambiental_gestao_ar_substituicaoChecked ||
+                                            ambiental_gestao_ar_partes_interessadasChecked ||
+                                            ambiental_lideranca_qualidade_arChecked ||
+                                            ambiental_gerenciamento_areas_contaminadasChecked ||
+                                            ambiental_gerenciamento_areas_contaminadas_monitoramentoChecked ||
+                                            ambiental_gerenciamento_areas_contaminadas_substituicaoChecked ||
+                                            ambiental_gerenciamento_areas_contaminadas_partes_interessadasChecked ||
+                                            ambiental_lideranca_areas_contaminadasChecked ||
+                                            ambiental_gerenciamento_produtos_perigososChecked ||
+                                            ambiental_gerenciamento_produtos_perigosos_avancadoChecked ||
+                                            ambiental_gerenciamento_produtos_perigosos_substituicaoChecked ||
+                                            ambiental_gerenciamento_produtos_perigosos_partes_interessadasChecked ||
+                                            ambiental_lideranca_produtos_perigososChecked ||
+                                            document.getElementById("ambiental_uso_agua_dia").value == "" ||
+                                            document.getElementById("ambiental_consumo_energia_mes").value == "" ||
+                                            document.getElementById("ambiental_emissoes_gee_mes").value == "" ||
+                                            document.getElementById("ambiental_reciclagem_residuos_mes").value == ""
+                                        ) {
+                                            isFormValid = false;
+                                        }
+                                
+                                        if (!isFormValid) {
+                                            alert('Para prosseguir, por favor, certifique-se de que todas as perguntas foram respondidas.');
+                                        return; // Impede o redirecionamento se o formulário for inválido
+                                        } 
+
+                                        // Salva os dados no localStorage
+
+                                        var ambiental_emissoesGEEValue = findFirstCheckedElement(["ambiental_emissoesGEE_sim", "ambiental_emissoesGEE_nao", "ambiental_emissoesGEE_np"]);
+                                        var ambiental_inventarioGEEValue = findFirstCheckedElement(["ambiental_inventarioGEE_sim", "ambiental_inventarioGEE_nao", "ambiental_inventarioGEE_np"]);
+                                        var ambiental_planoMitigacaoValue = findFirstCheckedElement(["ambiental_planoMitigacao_sim", "ambiental_planoMitigacao_nao", "ambiental_planoMitigacao_np"]);
+                                        var ambiental_participacaoPlataformasValue = findFirstCheckedElement(["ambiental_participacaoPlataformas_sim", "ambiental_participacaoPlataformas_nao", "ambiental_participacaoPlataformas_np"]);
+                                        var ambiental_divulgarInventarioValue = findFirstCheckedElement(["ambiental_divulgarInventario_sim", "ambiental_divulgarInventario_nao", "ambiental_divulgarInventario_np"]);
+                                        var ambiental_grupoTrabalhoValue = findFirstCheckedElement(["ambiental_grupoTrabalho_sim", "ambiental_grupoTrabalho_nao", "ambiental_grupoTrabalho_np"]);
+                                        var ambiental_identificacaoCenariosValue = findFirstCheckedElement(["ambiental_identificacaoCenarios_sim", "ambiental_identificacaoCenarios_nao", "ambiental_identificacaoCenarios_np"]);
+                                        var ambiental_planoAdaptacaoValue = findFirstCheckedElement(["ambiental_planoAdaptacao_sim", "ambiental_planoAdaptacao_nao", "ambiental_planoAdaptacao_np"]);
+                                        var ambiental_engajamentoStakeholdersValue = findFirstCheckedElement(["ambiental_engajamentoStakeholders_sim", "ambiental_engajamentoStakeholders_nao", "ambiental_engajamentoStakeholders_np"]);
+                                        var ambiental_comunicacaoPlanoValue = findFirstCheckedElement(["ambiental_comunicacaoPlano_sim", "ambiental_comunicacaoPlano_nao", "ambiental_comunicacaoPlano_np"]);
+                                        var ambiental_diagnosticoMetasValue = findFirstCheckedElement(["ambiental_diagnosticoMetas_sim", "ambiental_diagnosticoMetas_nao", "ambiental_diagnosticoMetas_np"]);
+                                        var ambiental_energiaRenovavelValue = findFirstCheckedElement(["ambiental_energiaRenovavel_sim", "ambiental_energiaRenovavel_nao", "ambiental_energiaRenovavel_np"]);
+                                        var ambiental_eficienciaEnergeticaValue = findFirstCheckedElement(["ambiental_eficienciaEnergetica_sim", "ambiental_eficienciaEnergetica_nao", "ambiental_eficienciaEnergetica_np"]);
+                                        var ambiental_trocaLampadasValue = findFirstCheckedElement(["ambiental_trocaLampadas_sim", "ambiental_trocaLampadas_nao", "ambiental_trocaLampadas_np"]);
+                                        var ambiental_iso50001Value = findFirstCheckedElement(["ambiental_iso50001_sim", "ambiental_iso50001_nao", "ambiental_iso50001_np"]);
+                                        var ambiental_usoAguaSuperficialValue = findFirstCheckedElement(["ambiental_usoAguaSuperficial_sim", "ambiental_usoAguaSuperficial_nao", "ambiental_usoAguaSuperficial_np"]);
+                                        var ambiental_monitoraAguaValue = findFirstCheckedElement(["ambiental_monitoraAgua_sim", "ambiental_monitoraAgua_nao", "ambiental_monitoraAgua_np"]);
+                                        var ambiental_indicadoresMetasValue = findFirstCheckedElement(["ambiental_indicadoresMetas_sim", "ambiental_indicadoresMetas_nao", "ambiental_indicadoresMetas_np"]);
+                                        var ambiental_projetosReusoValue = findFirstCheckedElement(["ambiental_projetosReuso_sim", "ambiental_projetosReuso_nao", "ambiental_projetosReuso_np"]);
+                                        var ambiental_acoesExternasValue = findFirstCheckedElement(["ambiental_acoesExternas_sim", "ambiental_acoesExternas_nao", "ambiental_acoesExternas_np"]);
+                                        var ambiental_gestaoEfluentesValue = findFirstCheckedElement(["ambiental_gestaoEfluentes_sim", "ambiental_gestaoEfluentes_nao", "ambiental_gestaoEfluentes_np"]);
+                                        var ambiental_controlesTradicionaisValue = findFirstCheckedElement(["ambiental_controlesTradicionais_sim", "ambiental_controlesTradicionais_nao", "ambiental_controlesTradicionais_np"]);
+                                        var ambiental_praticasSustentaveisValue = findFirstCheckedElement(["ambiental_praticasSustentaveis_sim", "ambiental_praticasSustentaveis_nao", "ambiental_praticasSustentaveis_np"]);
+                                        var ambiental_planoefluenteValue = findFirstCheckedElement(["ambiental_planoefluente_sim", "ambiental_planoefluente_nao", "ambiental_planoefluente_np"]);
+                                        var ambiental_gestaoEfluentesInovacoesValue = findFirstCheckedElement(["ambiental_gestaoEfluentesInovacoes_sim", "ambiental_gestaoEfluentesInovacoes_nao", "ambiental_gestaoEfluentesInovacoes_np"]);
+                                        var ambiental_biodiversidadeLegaisValue = findFirstCheckedElement(["ambiental_biodiversidadeLegais_sim", "ambiental_biodiversidadeLegais_nao", "ambiental_biodiversidadeLegais_np"]);
+                                        var ambiental_praticasDispersasValue = findFirstCheckedElement(["ambiental_praticasDispersas_sim", "ambiental_praticasDispersas_nao", "ambiental_praticasDispersas_np"]);
+                                        var ambiental_biodiversidadeIntegradasValue = findFirstCheckedElement(["ambiental_biodiversidadeIntegradas_sim", "ambiental_biodiversidadeIntegradas_nao", "ambiental_biodiversidadeIntegradas_np"]);
+                                        var ambiental_biodiversidadeEstrategiaValue = findFirstCheckedElement(["ambiental_biodiversidadeEstrategia_sim", "ambiental_biodiversidadeEstrategia_nao", "ambiental_biodiversidadeEstrategia_np"]);
+                                        var ambiental_biodiversidadePrioridadeValue = findFirstCheckedElement(["ambiental_biodiversidadePrioridade_sim", "ambiental_biodiversidadePrioridade_nao", "ambiental_biodiversidadePrioridade_np"]);
+                                        var ambiental_usoSoloLegaisValue = findFirstCheckedElement(["ambiental_usoSoloLegais_sim", "ambiental_usoSoloLegais_nao", "ambiental_usoSoloLegais_np"]);
+                                        var ambiental_iniciativasSoloValue = findFirstCheckedElement(["ambiental_iniciativasSolo_sim", "ambiental_iniciativasSolo_nao", "ambiental_iniciativasSolo_np"]);
+                                        var ambiental_usoSoloPraticasValue = findFirstCheckedElement(["ambiental_usoSoloPraticas_sim", "ambiental_usoSoloPraticas_nao", "ambiental_usoSoloPraticas_np"]);
+                                        var ambiental_usoSoloEstrategicoValue = findFirstCheckedElement(["ambiental_usoSoloEstrategico_sim", "ambiental_usoSoloEstrategico_nao", "ambiental_usoSoloEstrategico_np"]);
+                                        var ambiental_engajamentoSoloValue = findFirstCheckedElement(["ambiental_engajamentoSolo_sim", "ambiental_engajamentoSolo_nao", "ambiental_engajamentoSolo_np"]);
+                                        var ambiental_economiaCircularIniciaisValue = findFirstCheckedElement(["ambiental_economiaCircularIniciais_sim", "ambiental_economiaCircularIniciais_nao", "ambiental_economiaCircularIniciais_np"]);
+                                        var ambiental_abordagemCicloVidaValue = findFirstCheckedElement(["ambiental_abordagemCicloVida_sim", "ambiental_abordagemCicloVida_nao", "ambiental_abordagemCicloVida_np"]);
+                                        var ambiental_materiaisrecicladosValue = findFirstCheckedElement(["ambiental_materiaisreciclados_sim", "ambiental_materiaisreciclados_nao", "ambiental_materiaisreciclados_np"]);
+                                        var ambiental_abordagemCircularidadeValue = findFirstCheckedElement(["ambiental_abordagemCircularidade_sim", "ambiental_abordagemCircularidade_nao", "ambiental_abordagemCircularidade_np"]);
+                                        var ambiental_parceriasEstrategicasValue = findFirstCheckedElement(["ambiental_parceriasEstrategicas_sim", "ambiental_parceriasEstrategicas_nao", "ambiental_parceriasEstrategicas_np"]);
+                                        var ambiental_classificacaoResiduosValue = findFirstCheckedElement(["ambiental_classificacaoResiduos_sim", "ambiental_classificacaoResiduos_nao", "ambiental_classificacaoResiduos_np"]);
+                                        var ambiental_segregacaoResiduosValue = findFirstCheckedElement(["ambiental_segregacaoResiduos_sim", "ambiental_segregacaoResiduos_nao", "ambiental_segregacaoResiduos_np"]);
+                                        var ambiental_gestaoResiduosImplementadoValue = findFirstCheckedElement(["ambiental_gestaoResiduosImplementado_sim", "ambiental_gestaoResiduosImplementado_nao", "ambiental_gestaoResiduosImplementado_np"]);
+                                        var ambiental_logisticaReversaValue = findFirstCheckedElement(["ambiental_logisticaReversa_sim", "ambiental_logisticaReversa_nao", "ambiental_logisticaReversa_np"]);
+                                        var ambiental_avaliacaoTerceirosValue = findFirstCheckedElement(["ambiental_avaliacaoTerceiros_sim", "ambiental_avaliacaoTerceiros_nao", "ambiental_avaliacaoTerceiros_np"]);
+                                        var ambiental_SGAnaoImplementadoValue = findFirstCheckedElement(["ambiental_SGAnaoImplementado_sim", "ambiental_SGAnaoImplementado_nao", "ambiental_SGAnaoImplementado_np"]);
+                                        var ambiental_SGAIdentificacaoValue = findFirstCheckedElement(["ambiental_SGAIdentificacao_sim", "ambiental_SGAIdentificacao_nao", "ambiental_SGAIdentificacao_np"]);
+                                        var ambiental_controlesOperacionaisValue = findFirstCheckedElement(["ambiental_controlesOperacionais_sim", "ambiental_controlesOperacionais_nao", "ambiental_controlesOperacionais_np"]);
+                                        var ambiental_conscientizacaoGestaoValue = findFirstCheckedElement(["ambiental_conscientizacaoGestao_sim", "ambiental_conscientizacaoGestao_nao", "ambiental_conscientizacaoGestao_np"]);
+                                        var ambiental_liderancaAmbientalValue = findFirstCheckedElement(["ambiental_liderancaAmbiental_sim", "ambiental_liderancaAmbiental_nao", "ambiental_liderancaAmbiental_np"]);
+                                        var ambiental_poluicaoSonoraLegaisValue = findFirstCheckedElement(["ambiental_poluicaoSonoraLegais_sim", "ambiental_poluicaoSonoraLegais_nao", "ambiental_poluicaoSonoraLegais_np"]);
+                                        var ambiental_monitoramentoSonoroValue = findFirstCheckedElement(["ambiental_monitoramentoSonoro_sim", "ambiental_monitoramentoSonoro_nao", "ambiental_monitoramentoSonoro_np"]);
+                                        var ambiental_substituicaoRiscosSonorosValue = findFirstCheckedElement(["ambiental_substituicaoRiscosSonoros_sim", "ambiental_substituicaoRiscosSonoros_nao", "ambiental_substituicaoRiscosSonoros_np"]);
+                                        var ambiental_engajamentoSonoroValue = findFirstCheckedElement(["ambiental_engajamentoSonoro_sim", "ambiental_engajamentoSonoro_nao", "ambiental_engajamentoSonoro_np"]);
+                                        var ambiental_lideranca_sonoraValue = findFirstCheckedElement(["ambiental_lideranca_sonora_sim", "ambiental_lideranca_sonora_nao", "ambiental_lideranca_sonora_np"]);
+                                        var ambiental_gestao_arValue = findFirstCheckedElement(["ambiental_gestao_ar_sim", "ambiental_gestao_ar_nao", "ambiental_gestao_ar_np"]);
+                                        var ambiental_gestao_ar_monitoramentoValue = findFirstCheckedElement(["ambiental_gestao_ar_monitoramento_sim", "ambiental_gestao_ar_monitoramento_nao", "ambiental_gestao_ar_monitoramento_np"]);
+                                        var ambiental_gestao_ar_substituicaoValue = findFirstCheckedElement(["ambiental_gestao_ar_substituicao_sim", "ambiental_gestao_ar_substituicao_nao", "ambiental_gestao_ar_substituicao_np"]);
+                                        var ambiental_gestao_ar_partes_interessadasValue = findFirstCheckedElement(["ambiental_gestao_ar_partes_interessadas_sim", "ambiental_gestao_ar_partes_interessadas_nao", "ambiental_gestao_ar_partes_interessadas_np"]);
+                                        var ambiental_lideranca_qualidade_arValue = findFirstCheckedElement(["ambiental_lideranca_qualidade_ar_sim", "ambiental_lideranca_qualidade_ar_nao", "ambiental_lideranca_qualidade_ar_np"]);
+                                        var ambiental_gerenciamento_areas_contaminadasValue = findFirstCheckedElement(["ambiental_gerenciamento_areas_contaminadas_sim", "ambiental_gerenciamento_areas_contaminadas_nao", "ambiental_gerenciamento_areas_contaminadas_np"]);
+                                        var ambiental_gerenciamento_areas_contaminadas_monitoramentoValue = findFirstCheckedElement(["ambiental_gerenciamento_areas_contaminadas_monitoramento_sim", "ambiental_gerenciamento_areas_contaminadas_monitoramento_nao", "ambiental_gerenciamento_areas_contaminadas_monitoramento_np"]);
+                                        var ambiental_gerenciamento_areas_contaminadas_substituicaoValue = findFirstCheckedElement(["ambiental_gerenciamento_areas_contaminadas_substituicao_sim", "ambiental_gerenciamento_areas_contaminadas_substituicao_nao", "ambiental_gerenciamento_areas_contaminadas_substituicao_np"]);
+                                        var ambiental_gerenciamento_areas_contaminadas_partes_interessadasValue = findFirstCheckedElement(["ambiental_gerenciamento_areas_contaminadas_partes_interessadas_sim", "ambiental_gerenciamento_areas_contaminadas_partes_interessadas_nao", "ambiental_gerenciamento_areas_contaminadas_partes_interessadas_np"]);
+                                        var ambiental_lideranca_areas_contaminadasValue = findFirstCheckedElement(["ambiental_lideranca_areas_contaminadas_sim", "ambiental_lideranca_areas_contaminadas_nao", "ambiental_lideranca_areas_contaminadas_np"]);
+                                        var ambiental_gerenciamento_produtos_perigososValue = findFirstCheckedElement(["ambiental_gerenciamento_produtos_perigosos_sim", "ambiental_gerenciamento_produtos_perigosos_nao", "ambiental_gerenciamento_produtos_perigosos_np"]);
+                                        var ambiental_gerenciamento_produtos_perigosos_avancadoValue = findFirstCheckedElement(["ambiental_gerenciamento_produtos_perigosos_avancado_sim", "ambiental_gerenciamento_produtos_perigosos_avancado_nao", "ambiental_gerenciamento_produtos_perigosos_avancado_np"]);
+                                        var ambiental_gerenciamento_produtos_perigosos_substituicaoValue = findFirstCheckedElement(["ambiental_gerenciamento_produtos_perigosos_substituicao_sim", "ambiental_gerenciamento_produtos_perigosos_substituicao_nao", "ambiental_gerenciamento_produtos_perigosos_substituicao_np"]);
+                                        var ambiental_gerenciamento_produtos_perigosos_partes_interessadasValue = findFirstCheckedElement(["ambiental_gerenciamento_produtos_perigosos_partes_interessadas_sim", "ambiental_gerenciamento_produtos_perigosos_partes_interessadas_nao", "ambiental_gerenciamento_produtos_perigosos_partes_interessadas_np"]);
+                                        var ambiental_lideranca_produtos_perigososValue = findFirstCheckedElement(["ambiental_lideranca_produtos_perigosos_sim", "ambiental_lideranca_produtos_perigosos_nao", "ambiental_lideranca_produtos_perigosos_np"]);
+                                    ;
+
+                                    localStorage.setItem("ambiental_emissoesGEE", ambiental_emissoesGEEValue);
+                                    localStorage.setItem("ambiental_inventarioGEE", ambiental_inventarioGEEValue);
+                                    localStorage.setItem("ambiental_planoMitigacao", ambiental_planoMitigacaoValue);
+                                    localStorage.setItem("ambiental_participacaoPlataformas", ambiental_participacaoPlataformasValue);
+                                    localStorage.setItem("ambiental_divulgarInventario", ambiental_divulgarInventarioValue);
+                                    localStorage.setItem("ambiental_grupoTrabalho", ambiental_grupoTrabalhoValue);
+                                    localStorage.setItem("ambiental_identificacaoCenarios", ambiental_identificacaoCenariosValue);
+                                    localStorage.setItem("ambiental_planoAdaptacao", ambiental_planoAdaptacaoValue);
+                                    localStorage.setItem("ambiental_engajamentoStakeholders", ambiental_engajamentoStakeholdersValue);
+                                    localStorage.setItem("ambiental_comunicacaoPlano", ambiental_comunicacaoPlanoValue);
+                                    localStorage.setItem("ambiental_diagnosticoMetas", ambiental_diagnosticoMetasValue);
+                                    localStorage.setItem("ambiental_energiaRenovavel", ambiental_energiaRenovavelValue);
+                                    localStorage.setItem("ambiental_eficienciaEnergetica", ambiental_eficienciaEnergeticaValue);
+                                    localStorage.setItem("ambiental_trocaLampadas", ambiental_trocaLampadasValue);
+                                    localStorage.setItem("ambiental_iso50001", ambiental_iso50001Value);
+                                    localStorage.setItem("ambiental_usoAguaSuperficial", ambiental_usoAguaSuperficialValue);
+                                    localStorage.setItem("ambiental_monitoraAgua", ambiental_monitoraAguaValue);
+                                    localStorage.setItem("ambiental_indicadoresMetas", ambiental_indicadoresMetasValue);
+                                    localStorage.setItem("ambiental_projetosReuso", ambiental_projetosReusoValue);
+                                    localStorage.setItem("ambiental_acoesExternas", ambiental_acoesExternasValue);
+                                    localStorage.setItem("ambiental_gestaoEfluentes", ambiental_gestaoEfluentesValue);
+                                    localStorage.setItem("ambiental_controlesTradicionais", ambiental_controlesTradicionaisValue);
+                                    localStorage.setItem("ambiental_praticasSustentaveis", ambiental_praticasSustentaveisValue);
+                                    localStorage.setItem("ambiental_planoefluente", ambiental_planoefluenteValue);
+                                    localStorage.setItem("ambiental_gestaoEfluentesInovacoes", ambiental_gestaoEfluentesInovacoesValue);
+                                    localStorage.setItem("ambiental_biodiversidadeLegais", ambiental_biodiversidadeLegaisValue);
+                                    localStorage.setItem("ambiental_praticasDispersas", ambiental_praticasDispersasValue);
+                                    localStorage.setItem("ambiental_biodiversidadeIntegradas", ambiental_biodiversidadeIntegradasValue);
+                                    localStorage.setItem("ambiental_biodiversidadeEstrategia", ambiental_biodiversidadeEstrategiaValue);
+                                    localStorage.setItem("ambiental_biodiversidadePrioridade", ambiental_biodiversidadePrioridadeValue);
+                                    localStorage.setItem("ambiental_usoSoloLegais", ambiental_usoSoloLegaisValue);
+                                    localStorage.setItem("ambiental_iniciativasSolo", ambiental_iniciativasSoloValue);
+                                    localStorage.setItem("ambiental_usoSoloPraticas", ambiental_usoSoloPraticasValue);
+                                    localStorage.setItem("ambiental_usoSoloEstrategico", ambiental_usoSoloEstrategicoValue);
+                                    localStorage.setItem("ambiental_engajamentoSolo", ambiental_engajamentoSoloValue);
+                                    localStorage.setItem("ambiental_economiaCircularIniciais", ambiental_economiaCircularIniciaisValue);
+                                    localStorage.setItem("ambiental_abordagemCicloVida", ambiental_abordagemCicloVidaValue);
+                                    localStorage.setItem("ambiental_materiaisreciclados", ambiental_materiaisrecicladosValue);
+                                    localStorage.setItem("ambiental_abordagemCircularidade", ambiental_abordagemCircularidadeValue);
+                                    localStorage.setItem("ambiental_parceriasEstrategicas", ambiental_parceriasEstrategicasValue);
+                                    localStorage.setItem("ambiental_classificacaoResiduos", ambiental_classificacaoResiduosValue);
+                                    localStorage.setItem("ambiental_segregacaoResiduos", ambiental_segregacaoResiduosValue);
+                                    localStorage.setItem("ambiental_gestaoResiduosImplementado", ambiental_gestaoResiduosImplementadoValue);
+                                    localStorage.setItem("ambiental_logisticaReversa", ambiental_logisticaReversaValue);
+                                    localStorage.setItem("ambiental_avaliacaoTerceiros", ambiental_avaliacaoTerceirosValue);
+                                    localStorage.setItem("ambiental_SGAnaoImplementado", ambiental_SGAnaoImplementadoValue);
+                                    localStorage.setItem("ambiental_SGAIdentificacao", ambiental_SGAIdentificacaoValue);
+                                    localStorage.setItem("ambiental_controlesOperacionais", ambiental_controlesOperacionaisValue);
+                                    localStorage.setItem("ambiental_conscientizacaoGestao", ambiental_conscientizacaoGestaoValue);
+                                    localStorage.setItem("ambiental_liderancaAmbiental", ambiental_liderancaAmbientalValue);
+                                    localStorage.setItem("ambiental_poluicaoSonoraLegais", ambiental_poluicaoSonoraLegaisValue);
+                                    localStorage.setItem("ambiental_monitoramentoSonoro", ambiental_monitoramentoSonoroValue);
+                                    localStorage.setItem("ambiental_substituicaoRiscosSonoros", ambiental_substituicaoRiscosSonorosValue);
+                                    localStorage.setItem("ambiental_engajamentoSonoro", ambiental_engajamentoSonoroValue);
+                                    localStorage.setItem("ambiental_lideranca_sonora", ambiental_lideranca_sonoraValue);
+                                    localStorage.setItem("ambiental_gestao_ar", ambiental_gestao_arValue);
+                                    localStorage.setItem("ambiental_gestao_ar_monitoramento", ambiental_gestao_ar_monitoramentoValue);
+                                    localStorage.setItem("ambiental_gestao_ar_substituicao", ambiental_gestao_ar_substituicaoValue);
+                                    localStorage.setItem("ambiental_gestao_ar_partes_interessadas", ambiental_gestao_ar_partes_interessadasValue);
+                                    localStorage.setItem("ambiental_lideranca_qualidade_ar", ambiental_lideranca_qualidade_arValue);
+                                    localStorage.setItem("ambiental_gerenciamento_areas_contaminadas", ambiental_gerenciamento_areas_contaminadasValue);
+                                    localStorage.setItem("ambiental_gerenciamento_areas_contaminadas_monitoramento", ambiental_gerenciamento_areas_contaminadas_monitoramentoValue);
+                                    localStorage.setItem("ambiental_gerenciamento_areas_contaminadas_substituicao", ambiental_gerenciamento_areas_contaminadas_substituicaoValue);
+                                    localStorage.setItem("ambiental_gerenciamento_areas_contaminadas_partes_interessadas", ambiental_gerenciamento_areas_contaminadas_partes_interessadasValue);
+                                    localStorage.setItem("ambiental_lideranca_areas_contaminadas", ambiental_lideranca_areas_contaminadasValue);
+                                    localStorage.setItem("ambiental_gerenciamento_produtos_perigosos", ambiental_gerenciamento_produtos_perigososValue);
+                                    localStorage.setItem("ambiental_gerenciamento_produtos_perigosos_avancado", ambiental_gerenciamento_produtos_perigosos_avancadoValue);
+                                    localStorage.setItem("ambiental_gerenciamento_produtos_perigosos_substituicao", ambiental_gerenciamento_produtos_perigosos_substituicaoValue);
+                                    localStorage.setItem("ambiental_gerenciamento_produtos_perigosos_partes_interessadas", ambiental_gerenciamento_produtos_perigosos_partes_interessadasValue);
+                                    localStorage.setItem("ambiental_lideranca_produtos_perigosos", ambiental_lideranca_produtos_perigososValue);
+                                    localStorage.setItem("ambiental_uso_agua_dia", document.getElementById("ambiental_uso_agua_dia").value);
+                                    localStorage.setItem("ambiental_consumo_energia_mes", document.getElementById("ambiental_consumo_energia_mes").value);
+                                    localStorage.setItem("ambiental_emissoes_gee_mes", document.getElementById("ambiental_emissoes_gee_mes").value);
+                                    localStorage.setItem("ambiental_reciclagem_residuos_mes", document.getElementById("ambiental_reciclagem_residuos_mes").value);
+
+                                    // Redireciona para a próxima página
+                                    window.location.href = 'survey_PilarSocial.html';
+                                }
+
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+

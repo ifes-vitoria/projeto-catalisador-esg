@@ -1,0 +1,1699 @@
+{
+    "nome_empresa": "FrigoA",
+    "data": "30/06/2023",
+    "localizacao": "Vitória, Espírito Santo",
+    "indicadores_ambiental": {
+        "Consumo de energia elétrica médio por mês (mWh/mês)": 7,
+        "Uso da água médio (m³/mês)": 477,
+        "Emissões diretas e indiretas médio de GEE (Tonelada/mês)": 7,
+        "Reciclagem de resíduos médio (%/mês)": 77
+    },
+    "indicadores_social": {
+        "Horas de treinamento/funcionário/ano": 77,
+        "Taxa de rotatividade (% ao ano)": 77,
+        "Diversidade de gênero (% ao ano)": 48,
+        "Quantidade de acidentes e lesões (Colaborador/ano)": 84,
+        "Quantidade de acidentes com afastamento (Colaborador/ano)": 44,
+        "Capacitação de fornecedores em questões socioambientais e de direitos humanos (% volume de contratos)": 1,
+        "Investimentos em projetos de desenvolvimento das comunidades (R$/receita)": 22
+    },
+    "indicadores_governanca": {
+        "% de conselheiros independentes": 45,
+        "% de mulheres como membros titulares": 4,
+        "% de pessoas negras como membros titulares": 4
+    },
+    "perguntas": [
+        {
+            "nivel": 1,
+            "name": "emissoesGEE",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Mitigação de emissões de gases de efeito estufa (GEE) - ITEM 7.1.1.1 da PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "inventarioGEE",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Mitigação de emissões de gases de efeito estufa (GEE) - ITEM 7.1.1.1 da PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "planoMitigacao",
+            "resposta": "Não Aplicado",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Mitigação de emissões de gases de efeito estufa (GEE) - ITEM 7.1.1.1 da PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "participacaoPlataformas",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Mitigação de emissões de gases de efeito estufa (GEE) - ITEM 7.1.1.1 da PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "divulgarInventario",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Mitigação de emissões de gases de efeito estufa (GEE) - ITEM 7.1.1.1 da PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "grupoTrabalho",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Adaptação às mudanças climáticas - Item 7.1.1.2 da PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "identificacaoCenarios",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Adaptação às mudanças climáticas - Item 7.1.1.2 da PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "planoAdaptacao",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Adaptação às mudanças climáticas - Item 7.1.1.2 da PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "engajamentoStakeholders",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Adaptação às mudanças climáticas - Item 7.1.1.2 da PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "comunicacaoPlano",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Adaptação às mudanças climáticas - Item 7.1.1.2 da PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "diagnosticoMetas",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Eficiência Energética - ITEM 7.1.1.3 da PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "energiaRenovavel",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Eficiência Energética - ITEM 7.1.1.3 da PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "eficienciaEnergetica",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Eficiência Energética - ITEM 7.1.1.3 da PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "trocaLampadas",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Eficiência Energética - ITEM 7.1.1.3 da PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "iso50001",
+            "resposta": "Não Aplicado",
+            "eixo": "Ambiental",
+            "tema": "Mudanças Climáticas",
+            "criterio": "Eficiência Energética - ITEM 7.1.1.3 da PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "usoAguaSuperficial",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Recursos Hídricos",
+            "criterio": "USO DA ÁGUA - ITEM 7.1.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "monitoramentoAgua",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Recursos Hídricos",
+            "criterio": "USO DA ÁGUA - ITEM 7.1.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "metasAgua",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Recursos Hídricos",
+            "criterio": "USO DA ÁGUA - ITEM 7.1.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "reutilizacaoAgua",
+            "resposta": "Não Aplicado",
+            "eixo": "Ambiental",
+            "tema": "Recursos Hídricos",
+            "criterio": "USO DA ÁGUA - ITEM 7.1.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "acoesExternasAgua",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Recursos Hídricos",
+            "criterio": "USO DA ÁGUA - ITEM 7.1.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "gestaoEfluentes",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Recursos Hídricos",
+            "criterio": "GESTÃO DE EFLUENTES - ITEM 7.1.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "controleTradicional",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Recursos Hídricos",
+            "criterio": "GESTÃO DE EFLUENTES - ITEM 7.1.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "substMatPrimas",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Recursos Hídricos",
+            "criterio": "GESTÃO DE EFLUENTES - ITEM 7.1.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "planoReducao",
+            "resposta": "Não Aplicado",
+            "eixo": "Ambiental",
+            "tema": "Recursos Hídricos",
+            "criterio": "GESTÃO DE EFLUENTES - ITEM 7.1.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "inovacoesTecnologicas",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Recursos Hídricos",
+            "criterio": "GESTÃO DE EFLUENTES - ITEM 7.1.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "conservacaoBiodiversidade",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Biodiversidade e Ecossistemas",
+            "criterio": "CONSERVAÇÃO DA BIODIVERSIDADE - ITEM 7.1.3.1 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "compensacaoImpactos",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Biodiversidade e Ecossistemas",
+            "criterio": "CONSERVAÇÃO DA BIODIVERSIDADE - ITEM 7.1.3.1 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "gestaoRisco",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Biodiversidade e Ecossistemas",
+            "criterio": "CONSERVAÇÃO DA BIODIVERSIDADE - ITEM 7.1.3.1 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "projetoPreservacao",
+            "resposta": "Não Aplicado",
+            "eixo": "Ambiental",
+            "tema": "Biodiversidade e Ecossistemas",
+            "criterio": "CONSERVAÇÃO DA BIODIVERSIDADE - ITEM 7.1.3.1 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "avaliacaoEcossistemas",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Biodiversidade e Ecossistemas",
+            "criterio": "CONSERVAÇÃO DA BIODIVERSIDADE - ITEM 7.1.3.1 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "usoSoloLegal",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Biodiversidade e serviços ecossistêmicos",
+            "criterio": "USO SUSTENTÁVEL DO SOLO - ITEM 7.1.3.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "iniciativasUsoSustentavel",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Biodiversidade e serviços ecossistêmicos",
+            "criterio": "USO SUSTENTÁVEL DO SOLO - ITEM 7.1.3.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "praticasUsoSustentavel",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Biodiversidade e serviços ecossistêmicos",
+            "criterio": "USO SUSTENTÁVEL DO SOLO - ITEM 7.1.3.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "aspectoEstratégico",
+            "resposta": "Não Aplicado",
+            "eixo": "Ambiental",
+            "tema": "Biodiversidade e serviços ecossistêmicos",
+            "criterio": "USO SUSTENTÁVEL DO SOLO - ITEM 7.1.3.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "engajamentoPartesInteressadas",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Biodiversidade e serviços ecossistêmicos",
+            "criterio": "USO SUSTENTÁVEL DO SOLO - ITEM 7.1.3.2 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "iniciativasEconomiaCircular",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Economia circular e gestão de resíduos",
+            "criterio": "ECONOMIA CIRCULAR - ITEM 7.1.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "abordagemReduzImpactos",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Economia circular e gestão de resíduos",
+            "criterio": "ECONOMIA CIRCULAR - ITEM 7.1.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "reduzImpactosDesign",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Economia circular e gestão de resíduos",
+            "criterio": "ECONOMIA CIRCULAR - ITEM 7.1.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "indicadoresMetasCircularidade",
+            "resposta": "Não Aplicado",
+            "eixo": "Ambiental",
+            "tema": "Economia circular e gestão de resíduos",
+            "criterio": "ECONOMIA CIRCULAR - ITEM 7.1.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "parceriasSimbioseIndustrial",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Economia circular e gestão de resíduos",
+            "criterio": "ECONOMIA CIRCULAR - ITEM 7.1.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "classificacaoResiduos",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Economia circular e gestão de resíduos",
+            "criterio": "GESTÃO DE RESÍDUOS - ITEM 7.1.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "classificacaoSegregacaoFonte",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Economia circular e gestão de resíduos",
+            "criterio": "GESTÃO DE RESÍDUOS - ITEM 7.1.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "classificacaoSistemaGestao",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Economia circular e gestão de resíduos",
+            "criterio": "GESTÃO DE RESÍDUOS - ITEM 7.1.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "classificacaoLogisticaReversa",
+            "resposta": "Não Aplicado",
+            "eixo": "Ambiental",
+            "tema": "Economia circular e gestão de resíduos",
+            "criterio": "GESTÃO DE RESÍDUOS - ITEM 7.1.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "avaliacaoDestinacaoResiduos",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Economia circular e gestão de resíduos",
+            "criterio": "GESTÃO DE RESÍDUOS - ITEM 7.1.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "sistemaGestaoAmbiental",
+            "resposta": "Não",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "GESTÃO AMBIENTAL - ITEM 7.1.5.1 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "inicioImplementacaoSGA",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "GESTÃO AMBIENTAL - ITEM 7.1.5.1 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "controlesOperacionais",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "GESTÃO AMBIENTAL - ITEM 7.1.5.1 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "conscientizacaoPartesInteressadas",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "GESTÃO AMBIENTAL - ITEM 7.1.5.1 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "liderancaGestaoAmbiental",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "GESTÃO AMBIENTAL - ITEM 7.1.5.1 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "controlePoluicaoSonora",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "PREVENÇÃO DA POLUIÇÃO SONORA (RUÍDOS E VIBRAÇÕES) - ITEM 7.1.5.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "monitoramentoPoluicaoSonora",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "PREVENÇÃO DA POLUIÇÃO SONORA (RUÍDOS E VIBRAÇÕES) - ITEM 7.1.5.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "medidasReduzirRiscoSonoro",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "PREVENÇÃO DA POLUIÇÃO SONORA (RUÍDOS E VIBRAÇÕES) - ITEM 7.1.5.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "envolvimentoPartesExternasSonora",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "PREVENÇÃO DA POLUIÇÃO SONORA (RUÍDOS E VIBRAÇÕES) - ITEM 7.1.5.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "liderancaPoluicaoSonora",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "PREVENÇÃO DA POLUIÇÃO SONORA (RUÍDOS E VIBRAÇÕES) - ITEM 7.1.5.2 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "gestaoQualidadeAr",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "QUALIDADE DO AR (EMISSÕES DE POLUENTES) - ITEM 7.1.5.3 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "monitoramentoEmissoes",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "QUALIDADE DO AR (EMISSÕES DE POLUENTES) - ITEM 7.1.5.3 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "medidasSubstituicaoEmissoes",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "QUALIDADE DO AR (EMISSÕES DE POLUENTES) - ITEM 7.1.5.3 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "envolvimentoPartesExternasAr",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "QUALIDADE DO AR (EMISSÕES DE POLUENTES) - ITEM 7.1.5.3 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "liderancaQualidadeAr",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "QUALIDADE DO AR (EMISSÕES DE POLUENTES) - ITEM 7.1.5.3 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "gerenciamentoAreasContaminadas",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "GERENCIAMENTO DE ÁREAS CONTAMINADAS - ITEM 7.1.5.4 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "monitoramentoSoloAguas",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "GERENCIAMENTO DE ÁREAS CONTAMINADAS - ITEM 7.1.5.4 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "medidasSubstituicaoContaminacao",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "GERENCIAMENTO DE ÁREAS CONTAMINADAS - ITEM 7.1.5.4 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "envolvimentoPartesExternasContaminadas",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "GERENCIAMENTO DE ÁREAS CONTAMINADAS - ITEM 7.1.5.4 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "liderancaAreasContaminadas",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "GERENCIAMENTO DE ÁREAS CONTAMINADAS - ITEM 7.1.5.4 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "gerenciamentoProdutosPerigosos",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "PRODUTOS PERIGOSOS - ITEM 7.1.5.5 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "acoesReducaoRiscosProdutosPerigosos",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "PRODUTOS PERIGOSOS - ITEM 7.1.5.5 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "medidasSubstituicaoRiscos",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "PRODUTOS PERIGOSOS - ITEM 7.1.5.5 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "envolvimentoPartesExternasProdutosPerigosos",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "PRODUTOS PERIGOSOS - ITEM 7.1.5.5 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "liderancaProdutosPerigosos",
+            "resposta": "Sim",
+            "eixo": "Ambiental",
+            "tema": "Gestão ambiental e prevenção da poluição",
+            "criterio": "PRODUTOS PERIGOSOS - ITEM 7.1.5.5 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "mapeamentoOrganizacoesSociedadeCivil",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Investimento Social Privado (ISP) - Item 7.2.1.1 da PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "incentivoDoacoesVoluntariado",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Investimento Social Privado (ISP) - Item 7.2.1.1 da PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "recursosFinanceirosProdutos",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Investimento Social Privado (ISP) - Item 7.2.1.1 da PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "bolsasPremiosFellowships",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Investimento Social Privado (ISP) - Item 7.2.1.1 da PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "indicadoresISP",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Investimento Social Privado (ISP) - Item 7.2.1.1 da PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "planoComunicacaoAbrangente",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Diálogo e engajamento social - Item 7.2.1.2 da PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "pesquisasCampanhasEntrevistas",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Diálogo e engajamento social - Item 7.2.1.2 da PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "indicadoresMetasTematicas",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Diálogo e engajamento social - Item 7.2.1.2 da PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "promocaoEngajamentoSocial",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Diálogo e engajamento social - Item 7.2.1.2 da PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "relacaoComunicacaoColaboradores",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Diálogo e engajamento social - Item 7.2.1.2 da PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "participacaoForunsLocais",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Impacto social - Item 7.2.1.3 da PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "identificacaoPartesInteressadas",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Impacto social - Item 7.2.1.3 da PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "planoEstrategicoImpactos",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Impacto social - Item 7.2.1.3 da PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "capacitaComunidadeLocal",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Impacto social - Item 7.2.1.3 da PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "priorizaFornecedoresLocais",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diálogo social e desenvolvimento territorial",
+            "criterio": "Impacto social - Item 7.2.1.3 da PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "iniciativasDireitosHumanos",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Direitos humanos",
+            "criterio": "Respeito aos Direitos Humanos - Item 7.2.2.1 da PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "abordagemReativaDireitosHumanos",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Direitos humanos",
+            "criterio": "Respeito aos Direitos Humanos - Item 7.2.2.1 da PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "abordagemProativaDireitosHumanos",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Direitos humanos",
+            "criterio": "Respeito aos Direitos Humanos - Item 7.2.2.1 da PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "abordagemProativaMetasCanaisDenuncia",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Direitos humanos",
+            "criterio": "Respeito aos Direitos Humanos - Item 7.2.2.1 da PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "abordagemProativaParceirosFornecedores",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Direitos humanos",
+            "criterio": "Respeito aos Direitos Humanos - Item 7.2.2.1 da PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "cumprimentoLegislacaoTrabalhoForcado",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Direitos humanos",
+            "criterio": "Combate ao Trabalho Forçado ou Compulsório - Item 7.2.2.2 da PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "cumprimentoLegislacaoOIT",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Direitos humanos",
+            "criterio": "Combate ao Trabalho Forçado ou Compulsório - Item 7.2.2.2 da PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "avaliacaoConformidadeTrabalho",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Direitos humanos",
+            "criterio": "Combate ao Trabalho Forçado ou Compulsório - Item 7.2.2.2 da PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "avaliacaoConformidadeMonitoramento",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Direitos humanos",
+            "criterio": "Combate ao Trabalho Forçado ou Compulsório - Item 7.2.2.2 da PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "avaliacaoConformidadeTreinamentos",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Direitos humanos",
+            "criterio": "Combate ao Trabalho Forçado ou Compulsório - Item 7.2.2.2 da PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "promoçãoInclusaoBasica",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diversidade, equidade e inclusão",
+            "criterio": "CULTURA E PROMOÇÃO DE INCLUSÃO - ITEM 7.2.3.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "liderançaInclusiva",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diversidade, equidade e inclusão",
+            "criterio": "CULTURA E PROMOÇÃO DE INCLUSÃO - ITEM 7.2.3.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "politicaInclusivaEstrutural",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diversidade, equidade e inclusão",
+            "criterio": "CULTURA E PROMOÇÃO DE INCLUSÃO - ITEM 7.2.3.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "programaDiversidadeImplementado",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diversidade, equidade e inclusão",
+            "criterio": "CULTURA E PROMOÇÃO DE INCLUSÃO - ITEM 7.2.3.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "programaDiversidadeAfirmativa",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Diversidade, equidade e inclusão",
+            "criterio": "CULTURA E PROMOÇÃO DE INCLUSÃO - ITEM 7.2.3.2 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "desenvolvimentoProfissionalBasico",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "DESENVOLVIMENTO PROFISSIONAL - ITEM 7.2.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "açõesDesenvolvimentoProfissional",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "DESENVOLVIMENTO PROFISSIONAL - ITEM 7.2.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "politicaDesenvolvimentoProfissional",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "DESENVOLVIMENTO PROFISSIONAL - ITEM 7.2.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "politicaProgramaDesenvolvimento",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "DESENVOLVIMENTO PROFISSIONAL - ITEM 7.2.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "politicaProgramaComunidades",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "DESENVOLVIMENTO PROFISSIONAL - ITEM 7.2.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "conformidadeLegislacaoSSO",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "SAÚDE E SEGURANÇA OCUPACIONAL - ITEM 7.2.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "análiseRiscosSSO",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "SAÚDE E SEGURANÇA OCUPACIONAL - ITEM 7.2.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "conscientizaçãoForçaTrabalho",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "SAÚDE E SEGURANÇA OCUPACIONAL - ITEM 7.2.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "participaçãoGestãoSSO",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "SAÚDE E SEGURANÇA OCUPACIONAL - ITEM 7.2.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "protagonismoAltaDireçãoSSO",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "SAÚDE E SEGURANÇA OCUPACIONAL - ITEM 7.2.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "iniciativasQualidadeVida",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "QUALIDADE DE VIDA - ITEM 7.2.4.3 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "açõesPontuaisQualidadeVida",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "QUALIDADE DE VIDA - ITEM 7.2.4.3 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "participaçãoTrabalhadoresQualidadeVida",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "QUALIDADE DE VIDA - ITEM 7.2.4.3 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "programaApoioQualidadeVida",
+            "resposta": "Não Aplicado",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "QUALIDADE DE VIDA - ITEM 7.2.4.3 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "formaçãoLíderesQualidadeVida",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "QUALIDADE DE VIDA - ITEM 7.2.4.3 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "conformidadeLegislacaoLiberdadeAssociacao",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "LIBERDADE DE ASSOCIAÇÃO - ITEM 7.2.4.4 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "apoioOrganizaçõesTrabalhadores",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "LIBERDADE DE ASSOCIAÇÃO - ITEM 7.2.4.4 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "diálogoEntidadesTrabalhadores",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "LIBERDADE DE ASSOCIAÇÃO - ITEM 7.2.4.4 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "abordagemProativaOrganizaçõesTrabalhadores",
+            "resposta": "Sim",
+            "eixo": "Social",
+            "tema": "Relações e práticas de trabalho",
+            "criterio": "LIBERDADE DE ASSOCIAÇÃO - ITEM 7.2.4.4 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "constituicaoEmpresaDocumentos",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Estrutura e composição da governança - ITEM 7.3.1.1 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "resolucaoConflitosSocios",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Estrutura e composição da governança - ITEM 7.3.1.1 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "praticasNormasInternacionais",
+            "resposta": "Não Aplicado",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Estrutura e composição da governança - ITEM 7.3.1.1 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "politicasSelecaoRemuneracao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Estrutura e composição da governança - ITEM 7.3.1.1 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "diretrizesGovernancaCompliance",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Estrutura e composição da governança - ITEM 7.3.1.1 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "comiteESGCriado",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Propósito e estratégia em relação à sustentabilidade - ITEM 7.3.1.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "planejamentoAcoesESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Propósito e estratégia em relação à sustentabilidade - ITEM 7.3.1.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "objetivosMetasESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Propósito e estratégia em relação à sustentabilidade - ITEM 7.3.1.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "adesaoPactoGlobal",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Propósito e estratégia em relação à sustentabilidade - ITEM 7.3.1.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "objetivosDesenvolvimentoSustentavel",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Propósito e estratégia em relação à sustentabilidade - ITEM 7.3.1.2 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "codigoConduta",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Compliance, programa de integridade e práticas anticorrupção - ITEM 7.3.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "comiteCompliance",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Compliance, programa de integridade e práticas anticorrupção - ITEM 7.3.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "monitoramentoCompliance",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Compliance, programa de integridade e práticas anticorrupção - ITEM 7.3.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "sistemaDenuncias",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Compliance, programa de integridade e práticas anticorrupção - ITEM 7.3.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "dueDiligenceContratacao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Compliance, programa de integridade e práticas anticorrupção - ITEM 7.3.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "praticasConcorrenciaDesleal",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Práticas de combate à concorrência desleal (antitruste) - ITEM 7.3.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "mapeamentoConcorrentes",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Práticas de combate à concorrência desleal (antitruste) - ITEM 7.3.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "politicaCombateAnticoncorrencial",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Práticas de combate à concorrência desleal (antitruste) - ITEM 7.3.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "politicaCombateCartelizacao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Práticas de combate à concorrência desleal (antitruste) - ITEM 7.3.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "politicaCombateCartelizacaoCadenaFornecedor",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Práticas de combate à concorrência desleal (antitruste) - ITEM 7.3.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "identificacaoPartesInteressadas",
+            "resposta": "Não",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Engajamento com as partes interessadas - ITEM 7.3.2.3 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "analisePartesInteressadas",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Engajamento com as partes interessadas - ITEM 7.3.2.3 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "identificacaoRequisitosPartesInteressadas",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Engajamento com as partes interessadas - ITEM 7.3.2.3 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "monitoramentoEficienciaEngajamento",
+            "resposta": "Não",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Engajamento com as partes interessadas - ITEM 7.3.2.3 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "incentivoBoasPraticasSustentabilidade",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "TEM QUE SER IMPLEMENTADO"
+        },
+        {
+            "nivel": 1,
+            "name": "constituicaoEmpresaDocumentos",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Estrutura e composição da governança - ITEM 7.3.1.1 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "resolucaoConflitosSocios",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Estrutura e composição da governança - ITEM 7.3.1.1 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "praticasNormasInternacionais",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Estrutura e composição da governança - ITEM 7.3.1.1 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "politicasSelecaoRemuneracao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Estrutura e composição da governança - ITEM 7.3.1.1 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "diretrizesGovernancaCompliance",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Estrutura e composição da governança - ITEM 7.3.1.1 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "comiteESGCriado",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Propósito e estratégia em relação à sustentabilidade - ITEM 7.3.1.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "planejamentoAcoesESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Propósito e estratégia em relação à sustentabilidade - ITEM 7.3.1.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "objetivosMetasESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Propósito e estratégia em relação à sustentabilidade - ITEM 7.3.1.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "adesaoPactoGlobal",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Propósito e estratégia em relação à sustentabilidade - ITEM 7.3.1.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "objetivosDesenvolvimentoSustentavel",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Governança Corporativa",
+            "criterio": "Propósito e estratégia em relação à sustentabilidade - ITEM 7.3.1.2 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "codigoConduta",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Compliance, programa de integridade e práticas anticorrupção - ITEM 7.3.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "comiteCompliance",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Compliance, programa de integridade e práticas anticorrupção - ITEM 7.3.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "monitoramentoCompliance",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Compliance, programa de integridade e práticas anticorrupção - ITEM 7.3.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "sistemaDenuncias",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Compliance, programa de integridade e práticas anticorrupção - ITEM 7.3.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "dueDiligenceContratacao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Compliance, programa de integridade e práticas anticorrupção - ITEM 7.3.2.1 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "praticasConcorrenciaDesleal",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Práticas de combate à concorrência desleal (antitruste) - ITEM 7.3.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "mapeamentoConcorrentes",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Práticas de combate à concorrência desleal (antitruste) - ITEM 7.3.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "politicaCombateAnticoncorrencial",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Práticas de combate à concorrência desleal (antitruste) - ITEM 7.3.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "politicaCombateCartelizacao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Práticas de combate à concorrência desleal (antitruste) - ITEM 7.3.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "politicaCombateCartelizacaoCadenaFornecedor",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Práticas de combate à concorrência desleal (antitruste) - ITEM 7.3.2.2 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "identificacaoPartesInteressadas",
+            "resposta": "Não",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Engajamento com as partes interessadas - ITEM 7.3.2.3 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "analisePartesInteressadas",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Engajamento com as partes interessadas - ITEM 7.3.2.3 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "identificacaoRequisitosPartesInteressadas",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Engajamento com as partes interessadas - ITEM 7.3.2.3 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "monitoramentoEficienciaEngajamento",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "Engajamento com as partes interessadas - ITEM 7.3.2.3 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "incentivoBoasPraticasSustentabilidade",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Conduta empresarial",
+            "criterio": "TEM QUE SER IMPLEMENTADO"
+        },
+        {
+            "nivel": 1,
+            "name": "auditoriasInternas",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Auditorias interna e externa - ITEM 7.3.3.3 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "auditoriasInternas",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Auditorias interna e externa - ITEM 7.3.3.3 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "auditoriasInternas",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Auditorias interna e externa - ITEM 7.3.3.3 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "auditoriasInternas",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Auditorias interna e externa - ITEM 7.3.3.3 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "auditoriasInternas",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Auditorias interna e externa - ITEM 7.3.3.3 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "ambienteLegalRegulatorio",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Ambiente legal e regulatório - ITEM 7.3.3.4 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "ambienteLegalRegulatorio",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Ambiente legal e regulatório - ITEM 7.3.3.4 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "ambienteLegalRegulatorio",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Ambiente legal e regulatório - ITEM 7.3.3.4 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "ambienteLegalRegulatorio",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Ambiente legal e regulatório - ITEM 7.3.3.4 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "ambienteLegalRegulatorio",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Ambiente legal e regulatório - ITEM 7.3.3.4 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "gestaoSegurancaInformacao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Gestão da segurança da informação - ITEM 7.3.3.5 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "gestaoSegurancaInformacao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Gestão da segurança da informação - ITEM 7.3.3.5 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "gestaoSegurancaInformacao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Gestão da segurança da informação - ITEM 7.3.3.5 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "gestaoSegurancaInformacao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Gestão da segurança da informação - ITEM 7.3.3.5 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "gestaoSegurancaInformacao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Gestão da segurança da informação - ITEM 7.3.3.5 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "privacidadeDadosPessoais",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Privacidade de dados pessoais - ITEM 7.3.3.6 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "privacidadeDadosPessoais",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Privacidade de dados pessoais - ITEM 7.3.3.6 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "privacidadeDadosPessoais",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Privacidade de dados pessoais - ITEM 7.3.3.6 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "privacidadeDadosPessoais",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Privacidade de dados pessoais - ITEM 7.3.3.6 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "privacidadeDadosPessoais",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Práticas de controle e gestão",
+            "criterio": "Privacidade de dados pessoais - ITEM 7.3.3.6 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "responsabilizacaoGestao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Responsabilização (prestação de contas) - ITEM 7.3.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "responsabilizacaoGestao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Responsabilização (prestação de contas) - ITEM 7.3.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "responsabilizacaoGestao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Responsabilização (prestação de contas) - ITEM 7.3.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "responsabilizacaoGestao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Responsabilização (prestação de contas) - ITEM 7.3.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "responsabilizacaoGestao",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Responsabilização (prestação de contas) - ITEM 7.3.4.1 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "relatoriosESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG, de sustentabilidade e/ou relato integrado - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "relatoriosESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG, de sustentabilidade e/ou relato integrado - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "relatoriosESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG, de sustentabilidade e/ou relato integrado - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "relatoriosESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG, de sustentabilidade e/ou relato integrado - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "relatoriosESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG, de sustentabilidade e/ou relato integrado - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "relatoriosESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "relatoriosESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "relatoriosESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "relatoriosESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "relatoriosESG",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 1,
+            "name": "transparencia_relatorios_1",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG, de sustentabilidade e/ou relato integrado - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 2,
+            "name": "transparencia_relatorios_2",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG, de sustentabilidade e/ou relato integrado - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 3,
+            "name": "transparencia_relatorios_3",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG, de sustentabilidade e/ou relato integrado - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 4,
+            "name": "transparencia_relatorios_4",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG, de sustentabilidade e/ou relato integrado - ITEM 7.3.4.2 DA PR 2030"
+        },
+        {
+            "nivel": 5,
+            "name": "transparencia_relatorios_5",
+            "resposta": "Sim",
+            "eixo": "Governança",
+            "tema": "Transparência na gestão",
+            "criterio": "Relatórios ESG, de sustentabilidade e/ou relato integrado - ITEM 7.3.4.2 DA PR 2030"
+        }
+    ]
+}

@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <link rel="icon" href="https://www.sugarcane.org/wp-content/uploads/2020/12/icones_environmental_protection.png">
+   <title>ESG</title>
+   <!-- CSS FILES START -->
+   <link href="/static/css/custom.css" rel="stylesheet">
+   <link href="/static/css/color.css" rel="stylesheet">
+   <link href="/static/css/responsive.css" rel="stylesheet">
+   <link href="/static/css/owl.carousel.min.css" rel="stylesheet">
+   <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+   <link href="/static/css/prettyPhoto.css" rel="stylesheet">
+   <link href="/static/css/all.min.css" rel="stylesheet">
+   <!-- CSS FILES End -->
+   <script src="/static/js/cookie_config.js"></script>
+</head>
+
+<body>
+   <div class="wrapper home1">
+      <!--Header Start-->
+      <header class="header-style-1">
+         <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="../home.html">
+               <img src="https://i.postimg.cc/8c8BSPtz/Sem-t-tulo-removebg-preview.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+         </nav>
+      </header>
+      <!--Header End-->
+
+      <div id="search">
+         <button type="button" class="close">×</button>
+         <form class="search-overlay-form">
+            <input type="search" value="" placeholder="type keyword(s) here" />
+            <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
+         </form>
+      </div>
+
+      <!--Sobre o início da seção-->
+      <section class="home-about wf100 p80">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-40">
+                  <div class="about-txt">
+                     <h2><span>Catalisador ESG</span></h2>
+                     <h5>Agradecemos sua participação</h5>
+                     <form id="surveyConsentForm">
+                        <br><br>
+                        <button type="button" onclick="goToPreviousPage()">Página Anterior</button>
+                        <button type="button" onclick="submitSurvey()">Enviar</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </div>
+
+   <!-- Mensagens de Feedback -->
+   <div id="successMessage" class="alert alert-success" style="display: none;">
+      O relatório será exibido, obrigado pela participação.
+   </div>
+   <div id="errorMessage" class="alert alert-danger" style="display: none;">
+      Ocorreu um erro ao enviar o formulário. Tente novamente.
+   </div>
+
+   <!-- Script JavaScript -->
+   <script>
+      /// Função para exibir mensagem de sucesso
+      function showSuccessMessage() {
+         document.getElementById('successMessage').style.display = 'block';
+      }
+
+      // Função para exibir mensagem de erro
+      function showErrorMessage() {
+         document.getElementById('errorMessage').style.display = 'block';
+      }
+      
+      // Função para redirecionar para a página anterior
+      function goToPreviousPage() {
+                                    window.location.href = 'survey_PilarGovernanca.html';
+                                }
+
+      // Função para coletar dados do formulário
+      function collectSurveyData() {
+         const surveyData = {
+            meta: {
+               empresa: localStorage.getItem('empresa'),
+               atividade: localStorage.getItem('atividade'),
+               estado: localStorage.getItem('estado'),
+               cidade: localStorage.getItem('cidade'),
+               producaomes: localStorage.getItem('producaomes'),
+               unidproducao: localStorage.getItem('unidproducao'),
+               data: localStorage.getItem('data')
+            },
+            ambiental: {
+               ambiental_emissoesGEE: localStorage.getItem('ambiental_emissoesGEE'),
+               ambiental_inventarioGEE: localStorage.getItem('ambiental_inventarioGEE'),
+               ambiental_planoMitigacao: localStorage.getItem('ambiental_planoMitigacao'),
+               ambiental_participacaoPlataformas: localStorage.getItem('ambiental_participacaoPlataformas'),
+               ambiental_divulgarInventario: localStorage.getItem('ambiental_divulgarInventario'),
+               ambiental_grupoTrabalho: localStorage.getItem('ambiental_grupoTrabalho'),
+               ambiental_identificacaoCenarios: localStorage.getItem('ambiental_identificacaoCenarios'),
+               ambiental_planoAdaptacao: localStorage.getItem('ambiental_planoAdaptacao'),
+               ambiental_engajamentoStakeholders: localStorage.getItem('ambiental_engajamentoStakeholders'),
+               ambiental_comunicacaoPlano: localStorage.getItem('ambiental_comunicacaoPlano'),
+               ambiental_diagnosticoMetas: localStorage.getItem('ambiental_diagnosticoMetas'),
+               ambiental_energiaRenovavel: localStorage.getItem('ambiental_energiaRenovavel'),
+               ambiental_eficienciaEnergetica: localStorage.getItem('ambiental_eficienciaEnergetica'),
+               ambiental_trocaLampadas: localStorage.getItem('ambiental_trocaLampadas'),
+               ambiental_iso50001: localStorage.getItem('ambiental_iso50001'),
+               ambiental_usoAguaSuperficial: localStorage.getItem('ambiental_usoAguaSuperficial'),
+               ambiental_monitoraAgua: localStorage.getItem('ambiental_monitoraAgua'),
+               ambiental_indicadoresMetas: localStorage.getItem('ambiental_indicadoresMetas'),
+               ambiental_projetosReuso: localStorage.getItem('ambiental_projetosReuso'),
+               ambiental_acoesExternas: localStorage.getItem('ambiental_acoesExternas'),
+               ambiental_gestaoEfluentes: localStorage.getItem('ambiental_gestaoEfluentes'),
+               ambiental_controlesTradicionais: localStorage.getItem('ambiental_controlesTradicionais'),
+               ambiental_praticasSustentaveis: localStorage.getItem('ambiental_praticasSustentaveis'),
+               ambiental_planoefluente: localStorage.getItem('ambiental_planoefluente'),
+               ambiental_gestaoEfluentesInovacoes: localStorage.getItem('ambiental_gestaoEfluentesInovacoes'),
+               ambiental_biodiversidadeLegais: localStorage.getItem('ambiental_biodiversidadeLegais'),
+               ambiental_praticasDispersas: localStorage.getItem('ambiental_praticasDispersas'),
+               ambiental_biodiversidadeIntegradas: localStorage.getItem('ambiental_biodiversidadeIntegradas'),
+               ambiental_biodiversidadeEstrategia: localStorage.getItem('ambiental_biodiversidadeEstrategia'),
+               ambiental_biodiversidadePrioridade: localStorage.getItem('ambiental_biodiversidadePrioridade'),
+               ambiental_usoSoloLegais: localStorage.getItem('ambiental_usoSoloLegais'),
+               ambiental_iniciativasSolo: localStorage.getItem('ambiental_iniciativasSolo'),
+               ambiental_usoSoloPraticas: localStorage.getItem('ambiental_usoSoloPraticas'),
+               ambiental_usoSoloEstrategico: localStorage.getItem('ambiental_usoSoloEstrategico'),
+               ambiental_engajamentoSolo: localStorage.getItem('ambiental_engajamentoSolo'),
+               ambiental_economiaCircularIniciais: localStorage.getItem('ambiental_economiaCircularIniciais'),
+               ambiental_abordagemCicloVida: localStorage.getItem('ambiental_abordagemCicloVida'),
+               ambiental_materiaisreciclados: localStorage.getItem('ambiental_materiaisreciclados'),
+               ambiental_abordagemCircularidade: localStorage.getItem('ambiental_abordagemCircularidade'),
+               ambiental_parceriasEstrategicas: localStorage.getItem('ambiental_parceriasEstrategicas'),
+               ambiental_classificacaoResiduos: localStorage.getItem('ambiental_classificacaoResiduos'),
+               ambiental_segregacaoResiduos: localStorage.getItem('ambiental_segregacaoResiduos'),
+               ambiental_gestaoResiduosImplementado: localStorage.getItem('ambiental_gestaoResiduosImplementado'),
+               ambiental_logisticaReversa: localStorage.getItem('ambiental_logisticaReversa'),
+               ambiental_avaliacaoTerceiros: localStorage.getItem('ambiental_avaliacaoTerceiros'),
+               ambiental_SGAnaoImplementado: localStorage.getItem('ambiental_SGAnaoImplementado'),
+               ambiental_SGAIdentificacao: localStorage.getItem('ambiental_SGAIdentificacao'),
+               ambiental_controlesOperacionais: localStorage.getItem('ambiental_controlesOperacionais'),
+               ambiental_conscientizacaoGestao: localStorage.getItem('ambiental_conscientizacaoGestao'),
+               ambiental_liderancaAmbiental: localStorage.getItem('ambiental_liderancaAmbiental'),
+               ambiental_poluicaoSonoraLegais: localStorage.getItem('ambiental_poluicaoSonoraLegais'),
+               ambiental_monitoramentoSonoro: localStorage.getItem('ambiental_monitoramentoSonoro'),
+               ambiental_substituicaoRiscosSonoros: localStorage.getItem('ambiental_substituicaoRiscosSonoros'),
+               ambiental_engajamentoSonoro: localStorage.getItem('ambiental_engajamentoSonoro'),
+               ambiental_lideranca_sonora: localStorage.getItem('ambiental_lideranca_sonora'),
+               ambiental_gestao_ar: localStorage.getItem('ambiental_gestao_ar'),
+               ambiental_gestao_ar_monitoramento: localStorage.getItem('ambiental_gestao_ar_monitoramento'),
+               ambiental_gestao_ar_substituicao: localStorage.getItem('ambiental_gestao_ar_substituicao'),
+               ambiental_gestao_ar_partes_interessadas: localStorage.getItem('ambiental_gestao_ar_partes_interessadas'),
+               ambiental_lideranca_qualidade_ar: localStorage.getItem('ambiental_lideranca_qualidade_ar'),
+               ambiental_gerenciamento_areas_contaminadas: localStorage.getItem('ambiental_gerenciamento_areas_contaminadas'),
+               ambiental_gerenciamento_areas_contaminadas_monitoramento: localStorage.getItem('ambiental_gerenciamento_areas_contaminadas_monitoramento'),
+               ambiental_gerenciamento_areas_contaminadas_substituicao: localStorage.getItem('ambiental_gerenciamento_areas_contaminadas_substituicao'),
+               ambiental_gerenciamento_areas_contaminadas_partes_interessadas: localStorage.getItem('ambiental_gerenciamento_areas_contaminadas_partes_interessadas'),
+               ambiental_lideranca_areas_contaminadas: localStorage.getItem('ambiental_lideranca_areas_contaminadas'),
+               ambiental_gerenciamento_produtos_perigosos: localStorage.getItem('ambiental_gerenciamento_produtos_perigosos'),
+               ambiental_gerenciamento_produtos_perigosos_avancado: localStorage.getItem('ambiental_gerenciamento_produtos_perigosos_avancado'),
+               ambiental_gerenciamento_produtos_perigosos_substituicao: localStorage.getItem('ambiental_gerenciamento_produtos_perigosos_substituicao'),
+               ambiental_gerenciamento_produtos_perigosos_partes_interessadas: localStorage.getItem('ambiental_gerenciamento_produtos_perigosos_partes_interessadas'),
+               ambiental_lideranca_produtos_perigosos: localStorage.getItem('ambiental_lideranca_produtos_perigosos'),
+               ambiental_uso_agua_dia: localStorage.getItem('ambiental_uso_agua_dia'),
+               ambiental_consumo_energia_mes: localStorage.getItem('ambiental_consumo_energia_mes'),
+               ambiental_emissoes_gee_mes: localStorage.getItem('ambiental_emissoes_gee_mes'),
+               ambiental_reciclagem_residuos_mes: localStorage.getItem('ambiental_reciclagem_residuos_mes')
+            },
+            social: {
+               mapeamento_sociedade_civil: localStorage.getItem('mapeamento_sociedade_civil'),
+               incentivo_doacoes: localStorage.getItem('incentivo_doacoes'),
+               disponibilizacao_recursos: localStorage.getItem('disponibilizacao_recursos'),
+               disponibilizacao_bolsas: localStorage.getItem('disponibilizacao_bolsas'),
+               indicadores_isp: localStorage.getItem('indicadores_isp'),
+               plano_comunicacao: localStorage.getItem('plano_comunicacao'),
+               pesquisas_stakeholders: localStorage.getItem('pesquisas_stakeholders'),
+               indicadores_metas: localStorage.getItem('indicadores_metas'),
+               engajamento_social: localStorage.getItem('engajamento_social'),
+               fomento_comunicacao: localStorage.getItem('fomento_comunicacao'),
+               participacao_comunidade: localStorage.getItem('participacao_comunidade'),
+               identificacao_formadores: localStorage.getItem('identificacao_formadores'),
+               plano_estrategico: localStorage.getItem('plano_estrategico'),
+               capacitacao_comunidade: localStorage.getItem('capacitacao_comunidade'),
+               prioridade_fornecedores: localStorage.getItem('prioridade_fornecedores'),
+               iniciativas_dh: localStorage.getItem('iniciativas_dh'),
+               abordagem_reativa_dh: localStorage.getItem('abordagem_reativa_dh'),
+               abordagem_proativa_dh: localStorage.getItem('abordagem_proativa_dh'),
+               abordagem_proativa_dh_metas: localStorage.getItem('abordagem_proativa_dh_metas'),
+               abordagem_proativa_dh_integracao: localStorage.getItem('abordagem_proativa_dh_integracao'),
+               legislacao_trabalhista_combate_trabalho_forcado: localStorage.getItem('legislacao_trabalhista_combate_trabalho_forcado'),
+               legislacao_trabalhista_oit: localStorage.getItem('legislacao_trabalhista_oit'),
+               legislacao_trabalhista_oit_avaliacao: localStorage.getItem('legislacao_trabalhista_oit_avaliacao'),
+               legislacao_trabalhista_oit_monitoramento: localStorage.getItem('legislacao_trabalhista_oit_monitoramento'),
+               legislacao_trabalhista_oit_monitoramento_treinamento: localStorage.getItem('legislacao_trabalhista_oit_monitoramento_treinamento'),
+               trabalho_infantil: localStorage.getItem('trabalho_infantil'),
+               mapeamento_trabalho_infantil: localStorage.getItem('mapeamento_trabalho_infantil'),
+               sistema_gestao_trabalho_infantil: localStorage.getItem('sistema_gestao_trabalho_infantil'),
+               clausulas_trabalho_infantil: localStorage.getItem('clausulas_trabalho_infantil'),
+               campanhas_publicas_trabalho_infantil: localStorage.getItem('campanhas_publicas_trabalho_infantil'),
+               diversidade_equidade: localStorage.getItem('diversidade_equidade'),
+               diversidade_equidade_formal: localStorage.getItem('diversidade_equidade_formal'),
+               politicas_diversidade_equidade: localStorage.getItem('politicas_diversidade_equidade'),
+               politicas_diversidade_equidade_estrategias: localStorage.getItem('politicas_diversidade_equidade_estrategias'),
+               comunicacao_diversidade_equidade: localStorage.getItem('comunicacao_diversidade_equidade'),
+               inclusao: localStorage.getItem('inclusao'),
+               lideranca_inclusao: localStorage.getItem('lideranca_inclusao'),
+               politica_inclusao: localStorage.getItem('politica_inclusao'),
+               programa_diversidade: localStorage.getItem('programa_diversidade'),
+               programa_afirmativas: localStorage.getItem('programa_afirmativas'),
+               desenvolvimento_profissional: localStorage.getItem('desenvolvimento_profissional'),
+               desenvolvimento_profissional_acoes: localStorage.getItem('desenvolvimento_profissional_acoes'),
+               politica_desenvolvimento_profissional: localStorage.getItem('politica_desenvolvimento_profissional'),
+               programa_desenvolvimento_profissional: localStorage.getItem('programa_desenvolvimento_profissional'),
+               politica_desenvolvimento_comunidade: localStorage.getItem('politica_desenvolvimento_comunidade'),
+               requisitos_legais: localStorage.getItem('requisitos_legais'),
+               analise_riscos_sso: localStorage.getItem('analise_riscos_sso'),
+               conscientizacao_forca_trabalho: localStorage.getItem('conscientizacao_forca_trabalho'),
+               participacao_sso: localStorage.getItem('participacao_sso'),
+               protagonismo_sso: localStorage.getItem('protagonismo_sso'),
+               iniciativas_qualidade_vida: localStorage.getItem('iniciativas_qualidade_vida'),
+               acoes_pontuais_qualidade_vida: localStorage.getItem('acoes_pontuais_qualidade_vida'),
+               participacao_trabalhadores: localStorage.getItem('participacao_trabalhadores'),
+               programa_acompanhamento: localStorage.getItem('programa_acompanhamento'),
+               formacao_lideres: localStorage.getItem('formacao_lideres'),
+               legislacao_liberdade_associacao: localStorage.getItem('legislacao_liberdade_associacao'),
+               apoio_organizacoes_representativas: localStorage.getItem('apoio_organizacoes_representativas'),
+               dialogo_entidades_representativas: localStorage.getItem('dialogo_entidades_representativas'),
+               abordagem_proativa: localStorage.getItem('abordagem_proativa'),
+               resultados_interacoes: localStorage.getItem('resultados_interacoes'),
+               iniciativas_basicas_politica: localStorage.getItem('iniciativas_basicas_politica'),
+               nova_politica_remuneracao: localStorage.getItem('nova_politica_remuneracao'),
+               politica_remuneracao_implementada: localStorage.getItem('politica_remuneracao_implementada'),
+               praticas_remuneracao_equitativas: localStorage.getItem('praticas_remuneracao_equitativas'),
+               politica_remuneracao_estrategico: localStorage.getItem('politica_remuneracao_estrategico'),
+               requisitos_legais_direitos_consumidor: localStorage.getItem('requisitos_legais_direitos_consumidor'),
+               postura_transparente: localStorage.getItem('postura_transparente'),
+               canais_comunicacao_abertos: localStorage.getItem('canais_comunicacao_abertos'),
+               desenvolvimento_produtos_sustentaveis: localStorage.getItem('desenvolvimento_produtos_sustentaveis'),
+               protagonismo_relacoes_clientes: localStorage.getItem('protagonismo_relacoes_clientes'),
+               politica_relacionamento_fornecedores: localStorage.getItem('politica_relacionamento_fornecedores'),
+               comunicacao_ativa_fornecedores: localStorage.getItem('comunicacao_ativa_fornecedores'),
+               processo_qualificacao_fornecedores: localStorage.getItem('processo_qualificacao_fornecedores'),
+               politica_monitoramento_fornecedores: localStorage.getItem('politica_monitoramento_fornecedores'),
+               incentivo_fornecedores_protagonismo: localStorage.getItem('incentivo_fornecedores_protagonismo'),
+               h_treinamento_func_ano: localStorage.getItem('h_treinamento_func_ano'),
+               taxa_rotativ: localStorage.getItem('taxa_rotativ'),
+               diver_genero_anual: localStorage.getItem('diver_genero_anual'),
+               acid_trab_anual_horacolab: localStorage.getItem('acid_trab_anual_horacolab'),
+               afast_trab_anual_horacolab: localStorage.getItem('afast_trab_anual_horacolab'),
+               capac_fornecedor_socioamb_porcent: localStorage.getItem('capac_fornecedor_socioamb_porcent'),
+               invest_desenv_comunid_reais: localStorage.getItem('invest_desenv_comunid_reais')
+            },
+            governanca: {
+               documentos_essenciais: localStorage.getItem('documentos_essenciais'),
+               estatuto_diretrizes: localStorage.getItem('estatuto_diretrizes'),
+               praticas_recomendadas: localStorage.getItem('praticas_recomendadas'),
+               politicas_selecao_remuneracao: localStorage.getItem('politicas_selecao_remuneracao'),
+               diretrizes_governanca_compliance: localStorage.getItem('diretrizes_governanca_compliance'),
+               comite_esg: localStorage.getItem('comite_esg'),
+               planejamento_acoes_esg: localStorage.getItem('planejamento_acoes_esg'),
+               objetivos_metas_esg: localStorage.getItem('objetivos_metas_esg'),
+               adesao_pacto_global: localStorage.getItem('adesao_pacto_global'),
+               adocao_ods: localStorage.getItem('adocao_ods'),
+               codigo_conduta: localStorage.getItem('codigo_conduta'),
+               comite_compliance: localStorage.getItem('comite_compliance'),
+               monitoramento_compliance: localStorage.getItem('monitoramento_compliance'),
+               sistema_denuncias: localStorage.getItem('sistema_denuncias'),
+               due_diligence: localStorage.getItem('due_diligence'),
+               combate_concorrencia_desleal: localStorage.getItem('combate_concorrencia_desleal'),
+               mapeamento_concorrentes: localStorage.getItem('mapeamento_concorrentes'),
+               mapeamento_concorrentes_politica: localStorage.getItem('mapeamento_concorrentes_politica'),
+               mapeamento_concorrentes_analise: localStorage.getItem('mapeamento_concorrentes_analise'),
+               mapeamento_concorrentes_classificacao: localStorage.getItem('mapeamento_concorrentes_classificacao'),
+               identificacao_partes_interessadas_nao_estruturada: localStorage.getItem('identificacao_partes_interessadas_nao_estruturada'),
+               identificacao_partes_interessadas_cuidadosa: localStorage.getItem('identificacao_partes_interessadas_cuidadosa'),
+               partes_interessadas_detalhada: localStorage.getItem('partes_interessadas_detalhada'),
+               partes_interessadas_continua: localStorage.getItem('partes_interessadas_continua'),
+               partes_interessadas_sustentabilidade: localStorage.getItem('partes_interessadas_sustentabilidade'),
+               gestao_riscos_basica: localStorage.getItem('gestao_riscos_basica'),
+               identificacao_riscos_fundamental: localStorage.getItem('identificacao_riscos_fundamental'),
+               analise_riscos_priorizacao: localStorage.getItem('analise_riscos_priorizacao'),
+               planos_acao_riscos: localStorage.getItem('planos_acao_riscos'),
+               transparencia_riscos: localStorage.getItem('transparencia_riscos'),
+               controles_internos_basicos: localStorage.getItem('controles_internos_basicos'),
+               controles_internos_sistematicos: localStorage.getItem('controles_internos_sistematicos'),
+               controles_internos_robusto: localStorage.getItem('controles_internos_robusto'),
+               controles_internos_preventivas: localStorage.getItem('controles_internos_preventivas'),
+               controles_internos_preventivas_contas: localStorage.getItem('controles_internos_preventivas_contas'),
+               auditorias_basicas_ESG: localStorage.getItem('auditorias_basicas_ESG'),
+               auditoria_requisitos_ESG: localStorage.getItem('auditoria_requisitos_ESG'),
+               auditorias_atuacao_direcao_ESG: localStorage.getItem('auditorias_atuacao_direcao_ESG'),
+               auditorias_plano_acao_ESG: localStorage.getItem('auditorias_plano_acao_ESG'),
+               auditorias_transparencia_ESG: localStorage.getItem('auditorias_transparencia_ESG'),
+               avaliacao_conformidade: localStorage.getItem('avaliacao_conformidade'),
+               planos_acao_estrategicos: localStorage.getItem('planos_acao_estrategicos'),
+               monitoramento_multas: localStorage.getItem('monitoramento_multas'),
+               programas_compliance: localStorage.getItem('programas_compliance'),
+               tendencias: localStorage.getItem('tendencias'),
+               procedimentos_basicos: localStorage.getItem('procedimentos_basicos'),
+               acoes_isoladas: localStorage.getItem('acoes_isoladas'),
+               acoes_integradas: localStorage.getItem('acoes_integradas'),
+               politica_estruturada: localStorage.getItem('politica_estruturada'),
+               politica_externa: localStorage.getItem('politica_externa'),
+               privacidade_basica: localStorage.getItem('privacidade_basica'),
+               acoes_privacidade_isoladas: localStorage.getItem('acoes_privacidade_isoladas'),
+               acoes_privacidade_integradas: localStorage.getItem('acoes_privacidade_integradas'),
+               politica_privacidade: localStorage.getItem('politica_privacidade'),
+               politica_privacidade_externa: localStorage.getItem('politica_privacidade_externa'),
+               responsabilizacao_basica: localStorage.getItem('responsabilizacao_basica'),
+               prestacao_contas_transparente: localStorage.getItem('prestacao_contas_transparente'),
+               prestacao_contas_detalhada: localStorage.getItem('prestacao_contas_detalhada'),
+               prestacao_contas_planejamento: localStorage.getItem('prestacao_contas_planejamento'),
+               prestacao_contas_completa: localStorage.getItem('prestacao_contas_completa'),
+               informacoes_esg_isoladas: localStorage.getItem('informacoes_esg_isoladas'),
+               relatorio_esg_basico: localStorage.getItem('relatorio_esg_basico'),
+               relatorio_esg_adequado: localStorage.getItem('relatorio_esg_adequado'),
+               relatorio_esg_detalhado: localStorage.getItem('relatorio_esg_detalhado'),
+               relatorio_esg_verificacoes: localStorage.getItem('relatorio_esg_verificacoes'),
+               conselho_indep: localStorage.getItem('conselho_indep'),
+               conselho_mulher: localStorage.getItem('conselho_mulher'),
+               conselho_negra: localStorage.getItem('conselho_negra')
+            }
+         };
+
+         return surveyData;
+      }
+
+      // Função para enviar o formulário
+      function submitSurvey() {
+         const survey = collectSurveyData();
+
+         // Envia os dados para o servidor
+         fetch('/submit-survey', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(survey)
+         })
+         .then(response => response.blob())
+         .then(blob => {
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'report.pdf';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            showSuccessMessage();
+            localStorage.clear();
+            setTimeout(() => {
+               window.location.href = '../home.html';
+            }, 2000);
+         })
+         .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+            showErrorMessage();
+         });
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+         const surveyData = collectSurveyData();
+         console.log('Loaded Survey Data:', surveyData);
+      });
+   </script>
+</body>
+</html>

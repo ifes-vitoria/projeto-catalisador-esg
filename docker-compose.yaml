@@ -1,0 +1,27 @@
+services:
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: survey_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  web:
+    build: .
+    command: >
+      sh -c "python db_manager.py && uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
+    depends_on:
+      - db
+    environment:
+      - SQLALCHEMY_DATABASE_URL=postgresql://user:password@db:5432/survey_db
+    ports:
+      - "8000:8000"
+    working_dir: /app
+
+# Remove the volumes section if not needed
+volumes:
+   postgres_data:
